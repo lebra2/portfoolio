@@ -1,6 +1,6 @@
 <template>
-    <footer id="footer" class="w-full">
-        <div class="bg-neutral-900 text-gray-200  bottom-0 fixed w-full left-0 md:p-4">
+    <footer class="w-full">
+        <div class="bg-neutral-900 text-gray-200 md:p-4">
             <div class="max-w-7xl mx-auto py-4">
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 p-12 lg:p-0">
                     <div class="mb-5">

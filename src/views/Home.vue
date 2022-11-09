@@ -9,8 +9,10 @@ import Musiccard from '../components/Musiccard.vue';
 <template>
     <div>
         <Navigation />
-        <Musiccard />
+        <div>
+            <Musiccard />
+
+        </div>
         <Mainfooter />
-        
     </div>
 </template>

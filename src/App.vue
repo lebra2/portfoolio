@@ -7,12 +7,5 @@ import Musiccard from './components/Musiccard.vue';
 </script>
 
 <template>
-  
-  <div>
-    <Navigation />
-    <Mainfooter />
-
-
-  </div>
-  
+  <RouterView />
 </template>
