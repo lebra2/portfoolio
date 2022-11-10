@@ -7,5 +7,8 @@ import Musiccard from './components/Musiccard.vue';
 </script>
 
 <template>
-  <RouterView />
+  <div class="bg-neutral-800">
+    <RouterView />
+  </div>
+
 </template>
