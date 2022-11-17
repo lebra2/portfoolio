@@ -10,7 +10,7 @@ import Projects from '../components/Projects.vue';
 <template>
     <div>
         <Navigation />
-        <div>
+        <div class="min-h-[70vh]">
             <AboutMe/>
             <Projects/>
 
