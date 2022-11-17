@@ -5,10 +5,6 @@
                 <div>
                     <a class="cursor-pointer" href="index.html"><h1 class="flex justify-center text-white p-4 text-4xl font-bold sm:ml-4">LEBRA</h1></a>
                 </div>
-                <div class="md:hidden burger text-white trans035 mt-2 ">
-                    <i class="text-3xl text-center p-4  md:hidden fas fa-bars"></i>
-    
-                </div>
             </div>
                 <ul id="" class="sm:mr-4 md:items-center md:flex z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
                     <li class="mx-4 my-6 md:my-0">

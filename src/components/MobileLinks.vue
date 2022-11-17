@@ -1,5 +1,6 @@
 <template>
-    <div class="md:hidden w-full flex flex-col space-y-6 py-4">
+    <div class="md:hidden w-full flex flex-col space-y-6 ">
+        <h1 class="text-white text-3xl text-center font-bold">Kasulikud lingid:</h1>
         <div class="mx-4 bg-neutral-700 bg-opacity-25 p-2 flex rounded">
             <a class="flex-row-reverse justify-around text-2xl hover:text-spotify flex text-white gap-4" href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=1axAQ24-QQGmiRWx_MTscg" target="_blank">Spotify<i class="text-spotify mt-1 fa-brands fa-spotify"></i></a>
         </div>

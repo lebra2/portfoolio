@@ -13,7 +13,7 @@ import MobileLinks from '../components/MobileLinks.vue';
     <div>
         <Navigation />
             <MainStuff/>
-            <h1 class="hidden md:block text-white font-bold text-6xl text-center">Muusika</h1>
+            <h1 class=" text-white font-bold text-6xl text-center">Muusika</h1>
             <Musiccard/>
             <MobileLinks/>
         <Mainfooter />
