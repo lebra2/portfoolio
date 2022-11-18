@@ -4,6 +4,7 @@ import Mainfooter from '../components/Mainfooter.vue';
 import MainStuff from '../components/MainStuff.vue';
 import Musiccard from '../components/Musiccard.vue';
 import MobileLinks from '../components/MobileLinks.vue';
+import DropDown from '../components/DropDown.vue';
 
 
 </script>
@@ -12,6 +13,7 @@ import MobileLinks from '../components/MobileLinks.vue';
     
     <div>
         <Navigation />
+        <DropDown/>
             <MainStuff/>
             <h1 class=" text-white font-bold text-6xl text-center">Muusika</h1>
             <Musiccard/>

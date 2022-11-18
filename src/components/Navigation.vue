@@ -2,8 +2,14 @@
     <div class="">
         <nav id="nav" class="h-[10vh] sticky top-0 z-50 md:z-1 md:flex md:items-center md:justify-between">
             <div class="flex flex-row justify-between sticky ">
-                <div>
-                    <a class="cursor-pointer" href="index.html"><h1 class="flex justify-center text-white p-4 text-4xl font-bold sm:ml-4">LEBRA</h1></a>
+                <div class="flex">
+                    <router-link to="/" class="flex text-white p-4 text-4xl font-bold sm:ml-4">
+                        LEBRA
+                    </router-link>
+                    <router-link to="/Portfolio" class="flex text-white p-4 text-2xl font-bold sm:ml-4">
+                        Portfoolio
+                    </router-link>
+
                 </div>
             </div>
                 <ul id="" class="sm:mr-4 md:items-center md:flex z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
@@ -29,6 +35,7 @@
                     
                 </ul>
         </nav>
+          
 
         
     </div>
