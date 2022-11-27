@@ -1,5 +1,5 @@
 <template>
-    <div class="md:hidden w-full flex flex-col space-y-6 mx-4 text-white font-semibold text-2xl ">
+    <div class="text-white md:hidden text-2xl font-semibold gap-4 flex flex-col p-4 ">
         <div class="bg-white bg-opacity-5 flex items-center ">
             <img class="w-12 p-2 h-12" src="../assets/Pictures/spotify.png" alt=""><a href="">Spotify</a>
         </div>
