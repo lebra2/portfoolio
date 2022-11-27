@@ -18,7 +18,7 @@
                 <div class="text-2xl mt-8 rounded mt-4 md:bg-opacity-0 flex flex-col gap-4 lg:mx-0">
                     <!-- <h1 class="text-red-400 text-2xl text-center lg:text-3xl lg:text-left font-bold">Minust:</h1> -->
                     <div class="text-white text-center lg:text-left lg:text-3xl">
-                        <p>Markus aka LEBRA on noor eesti artist, kes alustas muusika tegemist juba 12. aastaselt, mil talle hakkas instrumentaalide tegemine huvi pakkuma. Harjutades ja videoid vaadates, oli see tema jaoks just kui hobi, kuniks ta otsustas neid avaldama hakata. Räppimisega alustas ta umbes 14. aastaselt, kirjutades oma sõbraga lood nimega "Viis Milli" & "Jäku mu näkku".                </p>
+                        <p>Markus aka LEBRA on noor eesti artist, kes alustas muusika tegemist juba 12. aastaselt, mil talle hakkas instrumentaalide tegemine huvi pakkuma. Harjutades ja videoid vaadates, oli see tema jaoks just kui hobi, kuniks ta otsustas neid avaldama hakata. Räppimisega alustas ta umbes 14. aastaselt, kirjutades oma sõbraga lood nimega "Viis Milli" & "Jäku mu näkku".</p>
                         <p>Nüüdseks saab LEBRA muusikat kuulata kõikidel platvormidel: Spotify, Youtube, iTunes, jne.</p>
                         <p>Enim kuulatud lood on "Šedööver" ning "Hetked".</p>
                     </div>
@@ -32,7 +32,7 @@
             <h1 class="mt-4 text-4xl">Kuulatuimad</h1>
             <div class="grid grid-cols-2 md:flex md:flex-col md:items-center my-4 mt-12 gap-4">
                 <div class="md:w-[300px] md:h-[300px]">
-                    <a href="https://open.spotify.com/track/5Qb3O0z8X93vcxMhiK4Sky?si=65ed349036f74377" target="_blank"><img class="md:hover:scale-105 trans035 rounded" src="../assets/Pictures/My project(5).png" alt=""></a>
+                    <a href="https://open.spotify.com/track/5Qb3O0z8X93vcxMhiK4Sky?si=65ed349036f74377" target="_blank"><img class="md:hover:scale-105 trans035 rounded" src="../assets/Pictures/Project.png" alt=""></a>
                 </div>
                 <div class="md:w-[300px] md:h-[300px]">
                     <a class="" href="https://open.spotify.com/track/5Qb3O0z8X93vcxMhiK4Sky?si=65ed349036f74377" target="_blank"><img class="flex md:hover:scale-105 trans035 rounded" src="../assets/Pictures/sedööver.png" alt=""></a>
