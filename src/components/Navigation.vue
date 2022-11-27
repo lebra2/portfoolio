@@ -2,12 +2,9 @@
     <div class="">
         <nav id="nav" class="h-[10vh] sticky top-0 z-50 md:z-1 md:flex md:items-center md:justify-between">
             <div class="flex flex-row justify-between sticky ">
-                <div class="flex">
+                <div class="flex font-['Nabla']">
                     <router-link to="/" class="flex text-white p-4 text-4xl font-bold sm:ml-4">
                         LEBRA
-                    </router-link>
-                    <router-link to="/Portfolio" class="flex text-white p-4 text-2xl font-bold sm:ml-4">
-                        Portfoolio
                     </router-link>
 
                 </div>
