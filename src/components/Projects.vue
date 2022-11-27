@@ -3,7 +3,7 @@
         <a class="w-fit" href="/">
             <div class="w-96">
                 <div class="">
-                    <img class="h-[200px] w-[384px] rounded-t-lg" src="src/assets/Pictures/micki.png" alt="">
+                    <img class="h-[200px] w-[384px] rounded-t-lg" src="../assets/Pictures/micki.png" alt="">
                 </div>
                 <div class="bg-white h-full p-4 rounded-b-lg">
                     <h1 class="mb-4 font-bold sm:text-3xl text-2xl md:text-5xl">E-portfoolio</h1>
@@ -15,7 +15,7 @@
         <a class="w-fit" href="/">
             <div class="w-96">
                 <div class="">
-                    <img class="h-[200px] w-[384px] rounded-t-lg" src="src/assets/Pictures/micki.png" alt="">
+                    <img class="h-[200px] w-[384px] rounded-t-lg" src="../assets/Pictures/micki.png" alt="">
                 </div>
                 <div class="bg-white h-full p-4 rounded-b-lg">
                     <h1 class="mb-4 font-bold sm:text-3xl text-2xl md:text-5xl">E-portfoolio</h1>
@@ -27,7 +27,7 @@
         <a class="w-fit" href="/">
             <div class="w-96">
                 <div class="">
-                    <img class="h-[200px] w-[384px] rounded-t-lg" src="src/assets/Pictures/micki.png" alt="">
+                    <img class="h-[200px] w-[384px] rounded-t-lg" src="../assets/Pictures/micki.png" alt="">
                 </div>
                 <div class="bg-white h-full p-4 rounded-b-lg">
                     <h1 class="mb-4 font-bold sm:text-3xl text-2xl md:text-5xl">E-portfoolio</h1>
