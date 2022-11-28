@@ -1,10 +1,17 @@
 <template>
     <div class="font-['League'] md:h-auto md:grid flex flex-col md:grid-cols-2 xl:mx-12 2xl:mx-24 p-4 lg:my-12 lg:gap-24">
         <div class="md:mt-[20vh] h-full">
-            <h1 class="text-center lg:text-left text-white text-6xl lg:flex">Markus Timofejev</h1>
+            
+            <h1 class="text-center lg:text-left text-white text-6xl lg:flex font-bold">UUS LUGU</h1>
+            <div class="flex justify-center mb-4">
+                <img class="w-12 h-12 bg-white rounded-full p-2" src="../assets/Pictures/down-arrow.png" alt="">
+            </div>
             <p class="hidden text-center lg:text-left md:block lg:w-96 text-2xl text-gray-400 font-semibold">Noorem Tarkvaraarendaja & Muusik</p>
 
-            <div class="bg-white bg-opacity-5 flex flex-col">
+            <div class="bg-white bg-opacity-5 flex flex-col gap-12 items-center">
+                <div class="">
+                    <a class="" href="https://open.spotify.com/album/1B1i6MzsFzUtc1Zh3LWCYj?si=RSYmugEkRXCgRu4cytoqKA" target="_blank"><img class="flex md:hover:scale-105 trans035 rounded" src="../assets/Pictures/Sulan.jpg" alt=""></a>
+                </div>
                 <img class="rounded-lg md:hidden" src="../assets/Pictures/1656201069095.jpg" alt="">
                 <div class="md:hidden">
                     <h1 class="text-white text-center text-3xl font-bold mt-4">Artist</h1>

@@ -19,7 +19,7 @@ function expandMenu() {
     <button v-on:click="expandMenu()" class="menuButtons" style="z-index: 50;">
         <img src="../assets/Pictures/more.png" class="" alt="">
     </button>
-    <router-link to="/Portfolio" id="homeLink" class="menuButtons" style="z-index: 49;">
+    <router-link to="/" id="homeLink" class="menuButtons" style="z-index: 49;">
         <img src="../assets/Pictures/portfolio.png" class="" alt="">
     </router-link>
     <router-link to="/" id="gameLink" class="menuButtons" style="z-index: 48;">
