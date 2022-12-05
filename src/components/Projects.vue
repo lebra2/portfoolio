@@ -7,7 +7,7 @@
                 </div>
                 <div class="bg-white h-full p-4 rounded-b-lg">
                     <h1 class="mb-4 font-bold sm:text-3xl text-2xl md:text-5xl">V-Instrument</h1>
-                    <p class="sm:hidden text-xl">Esimene projekt</p>
+                    <p class="sm:hidden text-xl">Teine projekt</p>
                     <p class="text-xl font-semibold">Teine projekt oli vaja teha virtuaalne instrument milleks oli kannel. Edasi saad lugeda..</p>
                 </div>
             </div>
