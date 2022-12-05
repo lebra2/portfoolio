@@ -11,7 +11,10 @@ import HomeButton from '../components/HomeButton.vue';
 <template>
     <div>
         <Navigation />
-        <HomeButton/>
+        <div class="md:hidden">
+            <HomeButton/>
+        </div>
+
         <div class="min-h-[70vh]">
             <AboutMe/>
             <Projects/>

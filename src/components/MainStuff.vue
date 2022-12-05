@@ -1,12 +1,10 @@
 <template>
     <div class="font-['League'] md:h-auto md:grid flex flex-col md:grid-cols-2 xl:mx-12 2xl:mx-24 p-4 lg:my-12 lg:gap-24">
-        <div class="md:mt-[20vh] h-full">
-            
-            <h1 class="text-center lg:text-left text-white text-6xl lg:flex font-bold">UUS LUGU</h1>
-            <div class="flex justify-center mb-4">
-                <img class="w-12 h-12 bg-white rounded-full p-2" src="../assets/Pictures/down-arrow.png" alt="">
+        <div class=" h-full">
+            <h1 class="text-center lg:text-left text-white text-6xl lg:flex lg:hidden font-bold">UUS LUGU</h1>
+            <div class="flex justify-center">
+                <img class="w-12 h-12 md:hidden bg-white rounded-full p-2" src="../assets/Pictures/down-arrow.png" alt="">
             </div>
-            <p class="hidden text-center lg:text-left md:block lg:w-96 text-2xl text-gray-400 font-semibold">Noorem Tarkvaraarendaja & Muusik</p>
 
             <div class="bg-white bg-opacity-5 flex flex-col gap-12 items-center">
                 <div class="">
@@ -22,8 +20,8 @@
                 </div>
 
 
-                <div class="text-2xl mt-8 rounded mt-4 md:bg-opacity-0 flex flex-col gap-4 lg:mx-0">
-                    <!-- <h1 class="text-red-400 text-2xl text-center lg:text-3xl lg:text-left font-bold">Minust:</h1> -->
+                <div class="text-2xl mt-8 rounded mt-4 md:bg-opacity-0 flex flex-col gap-4 lg:mx-0 p-4">
+                    <p class="hidden text-center lg:text-left md:block lg:w-96 text-3xl text-gray-400 font-semibold">Noorem Tarkvaraarendaja & Muusik</p>
                     <div class="text-white text-center lg:text-left lg:text-3xl">
                         <p>Markus aka LEBRA on noor eesti artist, kes alustas muusika tegemist juba 12. aastaselt, mil talle hakkas instrumentaalide tegemine huvi pakkuma. Harjutades ja videoid vaadates, oli see tema jaoks just kui hobi, kuniks ta otsustas neid avaldama hakata. Räppimisega alustas ta umbes 14. aastaselt, kirjutades oma sõbraga lood nimega "Viis Milli" & "Jäku mu näkku".</p>
                         <p>Nüüdseks saab LEBRA muusikat kuulata kõikidel platvormidel: Spotify, Youtube, iTunes, jne.</p>
@@ -35,7 +33,7 @@
 
 
         </div>
-        <div class="ml-4 text-white text-center font-bold shadow-md bg-white rounded bg-opacity-5 mt-12">
+        <div class="ml-4 text-white text-center font-bold shadow-md bg-white rounded bg-opacity-5">
             <h1 class="mt-4 text-4xl">Kuulatuimad</h1>
             <div class="grid grid-cols-2 md:flex md:flex-col md:items-center my-4 mt-12 gap-4">
                 <div class="md:w-[300px] md:h-[300px]">
