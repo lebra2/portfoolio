@@ -1,6 +1,6 @@
 <template> 
 
-    <div class="h-full md:mx-[24vh] my-12">
+    <div class="h-full lg:mx-24 my-12">
         <div class="text-center md:text-left h-full mx-4">
             <h1 class="text-white text-center text-5xl md:text-6xl font-bold">Minu portfoolio</h1>
             <div class="mt-8 rounded p-4 text-2xl flex flex-col gap-4">
@@ -12,4 +12,11 @@
         </div>
 
     </div>
+
+    <router-link to="/ceevee">
+        <div class="flex mx-8">
+            <button class="text-white bg-green-500 w-12 h-12 rounded-full">CV</button>
+        </div>
+
+    </router-link>
 </template>

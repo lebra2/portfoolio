@@ -4,6 +4,7 @@ import Portfolio from '../views/Portfolio.vue';
 import Project2 from '../views/Project2.vue';
 import Project3 from '../views/Project3.vue';
 import Project1 from '../views/Project1.vue';
+import ceevee from '../views/ceevee.vue';
 
 const routes = [
     {
@@ -34,6 +35,13 @@ const routes = [
         path: "/Project1",
         name: "Project1",
         component: Project1,
+    },
+
+    
+    {
+        path: "/ceevee",
+        name: "ceevee",
+        component: ceevee,
     }
 ]
 
