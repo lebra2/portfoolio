@@ -16,7 +16,7 @@
             <img class="w-12 p-2 h-12" src="../assets/Pictures/soundcloud.png" alt="https://soundcloud.com/lebraofficial"><a href="">Soundcloud</a>
         </div>
         <div class="bg-white bg-opacity-5 flex items-center ">
-            <img class="w-12 p-2 h-12" src="../assets/Pictures/youtube.png" alt=""><a href="https://www.youtube.com/channel/UCrTLs2NxHzsAk7x1zkg8LrA">Youtube</a>
+            <img class="w-12 p-2 h-12" src="../assets/Pictures/youtube.png" alt=""><a href="https://www.youtube.com/channel/UCM6xFVWK2ARMtvBPvEMho9w">Youtube</a>
         </div>
 
 
