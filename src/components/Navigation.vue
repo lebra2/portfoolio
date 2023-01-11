@@ -1,8 +1,8 @@
 <template>
     <div class="">
-        <nav id="nav" class="sticky top-0 z-50 md:z-1 md:flex md:items-center md:justify-between">
+        <nav id="nav" class="sticky bg-black bg-opacity-50 top-0 z-50 md:z-1 md:flex md:items-center md:justify-between">
             <div class="flex flex-row justify-between sticky ">
-                <div class="flex  font-['South']">
+                <div class="flex font-['South']">
                     <router-link to="/" class="flex text-white p-4 text-4xl font-bold sm:ml-4">
                         LEBRA
                     </router-link>

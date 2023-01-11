@@ -5,7 +5,6 @@ import MainStuff from '../components/MainStuff.vue';
 import Musiccard from '../components/Musiccard.vue';
 import HomeButtonVue from '../components/HomeButton.vue';
 import MobileLinksVue from '../components/MobileLinks.vue';
-import Mainstuff2 from '../components/Mainstuff2.vue';
 
 </script>
 
@@ -16,10 +15,7 @@ import Mainstuff2 from '../components/Mainstuff2.vue';
         <div class="md:hidden">
             <HomeButtonVue/>
         </div>
-        <Mainstuff2/>
             <MainStuff/>
-
-            <h1 class=" text-white font-bold text-6xl text-center">Muusika</h1>
             <Musiccard/>
             <MobileLinksVue/>
         <Mainfooter />
