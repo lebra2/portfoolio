@@ -22,8 +22,8 @@
 .menuButtons {
     position: fixed;
     border-radius: 9999px;
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
     right: 0.25rem;
     margin-right: 0.25rem;
     margin-top: 0.5rem;
@@ -31,7 +31,7 @@
     top: 0.25rem;
     filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.1)) drop-shadow(0 1px 1px rgb(0 0 0 / 0.06));
     background-color: white;
-    padding: 0.75rem;
+    padding: 0.5rem;
     
 }
 

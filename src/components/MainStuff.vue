@@ -1,34 +1,13 @@
 <template>
     <div class="font-['League'] md:h-auto md:grid flex flex-col md:grid-cols-2 xl:mx-12 2xl:mx-24 p-4 lg:my-12 lg:gap-24">
         <div class=" h-full">
-            <h1 class="text-center lg:text-left text-white text-6xl lg:flex lg:hidden font-bold">UUS LUGU</h1>
-            <div class="flex justify-center">
-                <img class="w-12 h-12 md:hidden bg-white rounded-full p-2" src="../assets/Pictures/down-arrow.png" alt="">
+            <h1 class="text-center lg:text-left text-white text-6xl lg:flex lg:hidden">Uus lugu</h1>
+            <div class="flex justify-center my-4">
+                <img class="w-8 h-8 md:hidden bg-white rounded-full p-1" src="../assets/Pictures/down-arrow.png" alt="">
+                
             </div>
-
-            <div class="bg-white bg-opacity-5 flex flex-col gap-12 items-center">
-                <div class="">
-                    <a class="" href="https://open.spotify.com/album/1B1i6MzsFzUtc1Zh3LWCYj?si=RSYmugEkRXCgRu4cytoqKA" target="_blank"><img class="flex md:hover:scale-105 trans035 rounded" src="../assets/Pictures/Sulan.jpg" alt=""></a>
-                </div>
-                <img class="rounded-lg md:hidden" src="../assets/Pictures/1656201069095.jpg" alt="">
-                <div class="md:hidden">
-                    <h1 class="text-white text-center text-3xl font-bold mt-4">Artist</h1>
-                    <div class="w-full flex justify-center my-2">
-                        <img class="w-8 h-8" src="../assets/Pictures/google-maps.png" alt="">
-                    </div>
-                    <h1 class="text-center text-gray-400 font-bold">Hiiumaa</h1>
-                </div>
-
-
-                <div class="text-2xl mt-8 rounded mt-4 md:bg-opacity-0 flex flex-col gap-4 lg:mx-0 p-4">
-                    <p class="hidden text-center lg:text-left md:block lg:w-96 text-3xl text-gray-400 font-semibold">Noorem Tarkvaraarendaja & Muusik</p>
-                    <div class="text-white text-center lg:text-left lg:text-3xl">
-                        <p>Markus aka LEBRA on noor eesti artist, kes alustas muusika tegemist juba 12. aastaselt, mil talle hakkas instrumentaalide tegemine huvi pakkuma. Harjutades ja videoid vaadates, oli see tema jaoks just kui hobi, kuniks ta otsustas neid avaldama hakata. Räppimisega alustas ta umbes 14. aastaselt, kirjutades oma sõbraga lood nimega "Viis Milli" & "Jäku mu näkku".</p>
-                        <p>Nüüdseks saab LEBRA muusikat kuulata kõikidel platvormidel: Spotify, Youtube, iTunes, jne.</p>
-                        <p>Enim kuulatud lood on "Šedööver" ning "Hetked".</p>
-                    </div>
-
-                </div>     
+            <div class="">
+                <a class="" href="https://open.spotify.com/album/1B1i6MzsFzUtc1Zh3LWCYj?si=RSYmugEkRXCgRu4cytoqKA" target="_blank"><img class="flex md:hover:scale-105 trans035 rounded" src="../assets/Pictures/Sulan.jpg" alt=""></a>
             </div>
 
 
