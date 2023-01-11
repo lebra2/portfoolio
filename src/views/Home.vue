@@ -16,7 +16,6 @@ import MobileLinksVue from '../components/MobileLinks.vue';
             <HomeButtonVue/>
         </div>
             <MainStuff/>
-            <Musiccard/>
             <MobileLinksVue/>
         <Mainfooter />
     </div>

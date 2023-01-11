@@ -5,7 +5,7 @@ import Project2 from '../views/Project2.vue';
 import Project3 from '../views/Project3.vue';
 import Project1 from '../views/Project1.vue';
 import ceevee from '../views/ceevee.vue';
-
+import Disko from '../views/Disko.vue';
 const routes = [
     {
         path: "/",
@@ -42,7 +42,14 @@ const routes = [
         path: "/ceevee",
         name: "ceevee",
         component: ceevee,
+    },
+
+    {
+        path: "/Disko",
+        name: "Disko",
+        component: Disko,
     }
+
 ]
 
 const router = createRouter({

@@ -3,7 +3,7 @@
         
         <div class=" h-full">
             <div class="">
-                <a class="" href="https://open.spotify.com/album/1B1i6MzsFzUtc1Zh3LWCYj?si=RSYmugEkRXCgRu4cytoqKA" target="_blank"><img class="flex md:hover:scale-105 trans035 rounded p-8" src="../assets/Pictures/usaldus.png" alt=""></a>
+                <a class="" href="https://open.spotify.com/album/1B1i6MzsFzUtc1Zh3LWCYj?si=RSYmugEkRXCgRu4cytoqKA" target="_blank"><img class="flex md:scale-75 trans035 rounded p-8" src="../assets/Pictures/usaldus.png" alt=""></a>
             </div>
             <div class="gap-2 text-white text-2xl flex justify-center flex-col items-center">
                 <h1 class="text-4xl">Mis on usaldus?</h1>
@@ -18,9 +18,13 @@
 
         </div>
         <div class="mt-4 text-white text-center font-bold shadow-md bg-white rounded bg-opacity-5 p-8">
-            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/70PCvEt9nvUsGdQQCjF1re?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe class="h-96 md:h-full" style="border-radius:12px" src="https://open.spotify.com/embed/artist/70PCvEt9nvUsGdQQCjF1re?utm_source=generator&theme=0" width="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
         </div>
+        <div class="gap-4 md:hidden p-4 text-white text-2xl flex justify-center flex-col items-center">
+            <router-link to="/Disko" class="bg-white bg-opacity-50 text-black rounded-full p-2" href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA">Diskograafia</router-link>
+        </div>
+
         
 
 
