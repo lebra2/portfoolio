@@ -17,11 +17,11 @@ import Mainstuff2 from '../components/Mainstuff2.vue';
             <HomeButtonVue/>
         </div>
         <Mainstuff2/>
-        <MobileLinksVue/>
             <MainStuff/>
 
             <h1 class=" text-white font-bold text-6xl text-center">Muusika</h1>
             <Musiccard/>
+            <MobileLinksVue/>
         <Mainfooter />
     </div>
 </template>
