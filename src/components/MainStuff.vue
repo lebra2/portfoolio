@@ -12,9 +12,13 @@
 
 
         </div>
-        <div class="ml-4 text-white text-center font-bold shadow-md bg-white rounded bg-opacity-5">
-            <h1 class="mt-4 text-4xl">Kuulatuimad</h1>
-            <div class="grid grid-cols-2 md:flex md:flex-col md:items-center my-4 mt-12 gap-4">
+        <div class="mt-4 text-white text-center font-bold shadow-md bg-white rounded bg-opacity-5">
+            <div class="mt-4 text-4xl">
+                <h1 class="">Kuulatuimad</h1>
+                <h1>lood</h1>
+            </div>  
+
+            <div class="grid grid-cols-2 md:flex md:flex-col md:items-center my-4 mt-4 gap-4">
                 <div class="md:w-[300px] md:h-[300px]">
                     <a href="https://open.spotify.com/track/5Qb3O0z8X93vcxMhiK4Sky?si=65ed349036f74377" target="_blank"><img class="md:hover:scale-105 trans035 rounded" src="../assets/Pictures/Project.png" alt=""></a>
                 </div>

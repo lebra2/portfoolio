@@ -1,6 +1,11 @@
 <template>
-    <div class="text-white md:hidden text-2xl font-semibold gap-4 flex flex-col p-4 ">
-        <div class="bg-white bg-opacity-5 flex items-center ">
+    <div class="text-white md:hidden text-2xl font-semibold gap-4 flex flex-col p-4">
+        <div class="flex justify-center items-center flex-col">
+            <h1 class="">Lingid</h1>
+            <h2 class="">kust mind leida :)</h2>
+        </div>
+
+        <div class="bg-white bg-opacity-5 rounded-md flex items-center ">
             <img class="w-12 p-2 h-12" src="../assets/Pictures/spotify.png" alt=""><a href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA">Spotify</a>
         </div>
         <div class="bg-white bg-opacity-5 flex items-center ">
