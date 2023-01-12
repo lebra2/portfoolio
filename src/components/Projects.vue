@@ -1,21 +1,33 @@
 <template>
-    <div class="h-screen gap-16 grid mx-8 sm:grid-cols-2 my-12 md:mx-48">
+    <div class="grid sm:grid-cols-2 gap-16 lg:mx-48 mx-4 my-12">
         <router-link to="/Project1">
-            <div class="bg-black bg-opacity-50 text-center rounded-lg">
-                <h1 class="text-white p-4 font-semibold">Miki hiirest portfoolio tegemine</h1>
-                <img src="../assets/Pictures/micki.png" alt="">
+            <div class=" w-full">
+                <h1 class="text-white text-4xl p-4 font-semibold italic text-center font-semibold bg-black bg-opacity-50">Miki hiirest portfoolio tegemine <br></h1>
+
+                <div class="">
+                    <img class="h-full bg-white bg-opacity-50" src="../assets/Pictures/1180w-600h_mickey-mouse_1.jpg" alt="">
+                </div>
+
             </div>
         </router-link>
         <router-link to="/Project1">
-            <div class="bg-black bg-opacity-50 text-center rounded-lg">
-                <h1 class="text-white p-4 font-semibold">Virtuaalne instrument kannel</h1>
-                <img src="../assets/Pictures/Väikekannel.jpg" alt="">
+            <div class=" w-full">
+                <h1 class="text-white text-4xl p-4 font-semibold italic text-center font-semibold bg-black bg-opacity-50">Miki hiirest portfoolio tegemine <br></h1>
+
+                <div class="">
+                    <img class="h-full bg-white bg-opacity-50" src="../assets/Pictures/1180w-600h_mickey-mouse_1.jpg" alt="">
+                </div>
+
             </div>
         </router-link>
         <router-link to="/Project1">
-            <div class="bg-black bg-opacity-50 text-center rounded-lg">
-                <h1 class="text-white p-4 font-semibold">Noor Meister 2022</h1>
-                <img src="../assets/Pictures/noor-meister-2022.jpg" alt="">
+            <div class=" w-full">
+                <h1 class="text-white text-4xl p-4 font-semibold italic text-center font-semibold bg-black bg-opacity-50">Miki hiirest portfoolio tegemine <br></h1>
+
+                <div class="">
+                    <img class="h-full bg-white bg-opacity-50" src="../assets/Pictures/1180w-600h_mickey-mouse_1.jpg" alt="">
+                </div>
+
             </div>
         </router-link>
     </div>

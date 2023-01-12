@@ -23,12 +23,6 @@
                     <li class="mx-4 my-6 md:my-0">
                         <a href="music.html" class="text-xl hover-underline-animation text-white hover:text-red-600 trans02">Music</a>
                     </li>
-                    <li class="mx-4 my-6 md:my-0">
-                        <a href="index.html" class="text-xl hover-underline-animation text-white hover:text-red-600 trans02 line-through">Videos</a>
-                    </li>
-                    <li class="mx-4 my-6 md:my-0">
-                        <a href="index.html" class="text-xl hover-underline-animation text-white hover:text-red-600 trans02">Beats</a>
-                    </li>
                     
                 </ul>
         </nav>
