@@ -25,7 +25,7 @@ function expandMenu() {
     <router-link to="/" id="gameLink" class="menuButtons" style="z-index: 48;">
         <img src="../assets/Pictures/home.png" class="" alt="">
     </router-link>
-    <router-link to="/" id="audioLink" class="menuButtons" style="z-index: 47;">
+    <router-link to="/Disko" id="audioLink" class="menuButtons" style="z-index: 47;">
         <img src="../assets/Pictures/music-note.png" class="" alt="">
     </router-link>
 </template>
