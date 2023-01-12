@@ -12,16 +12,18 @@
                 <ul id="" class="sm:mr-4 md:items-center md:flex z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
                     <li class="mx-4 my-6 md:my-0">
                         <router-link to="/" class="text-xl hover-underline-animation text-white hover:text-red-600 trans02">
-                            Home
+                            Kodu
                         </router-link>
                     </li>
                     <li class="mx-4 my-6 md:my-0">
                         <router-link to="/Portfolio" class="text-xl hover-underline-animation text-white hover:text-red-600 trans02">
-                            Portfolio
+                            Portfoolio
                         </router-link>
                     </li>
                     <li class="mx-4 my-6 md:my-0">
-                        <a href="music.html" class="text-xl hover-underline-animation text-white hover:text-red-600 trans02">Music</a>
+                        <router-link to="/Disko" class="text-xl hover-underline-animation text-white hover:text-red-600 trans02">
+                            Muusika
+                        </router-link>
                     </li>
                     
                 </ul>
