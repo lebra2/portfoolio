@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <footer class="w-full bg-neutral-900 shadow-lg">
         <div class="text-gray-200 md:p-4">
             <div class="max-w-7xl mx-auto">
@@ -31,4 +31,4 @@
             </div>
         </div>
     </footer>
-</template>
+</template> -->
