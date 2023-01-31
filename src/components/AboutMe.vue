@@ -4,9 +4,10 @@
         <div class="text-center md:text-left h-full mx-4">
             <div class="mt-8 rounded text-xl flex flex-col gap-4 ">
                 <h1 class="text-8xl text-white mt-2 font-['South']">MARKUS</h1>
-                <p class="text-white lg:text-2xl font-semibold">Olen 17-aastane noorem tarkvaraarendaja ja õpin Kuressaare Ametikoolis. Oskan juba html-i ja css-iga lihtsamaid veebilehti teha ning olen õppinud veel Pythonit, Javascripti, Mysqli, linuxi terminali jne.
-                    Ma arvan et ma olen sõbralik, seltskondlik ja avatud inimene, oskan inimestega suhelda ja leian kiiresti sõpru.
-                    Vabal ajal tegelen muusika loomisega ning minu eesmärk on ära õppida tulevikus C++, et teha oma pluginaid, mida müüa.</p>
+                <p class="text-white lg:text-2xl font-semibold">Olen 17-aastane noorem tarkvaraarendaja ja õpin Kuressaare Ametikoolis. <br>
+                    Olen kokku puutunud MySQLI, Pythoni, Javascripti ja PHP-ga. Peamiselt tegelen veebilehtede arendamisega ja kasutan selleks Vue JS/ Tailwindi <br>
+                    Vabal ajal tegelen instrumentaalide tegemisega, räppimisega ning on soov ära õppida klaveri mängimine ning ka kitarr.</p>
+                    <h1 class="text-white">www.lebra.ee</h1>
                     <div class="flex gap-2">
                         <router-link to="/ceevee">
                             <div class="flex">
