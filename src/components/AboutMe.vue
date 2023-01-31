@@ -1,8 +1,8 @@
 <template> 
 
-    <div class="h-full my-48">
+    <div class="h-full my-48 lg:mx-48">
         <div class="text-center md:text-left h-full mx-4">
-            <div class="mt-8 rounded p-4 text-xl flex flex-col gap-4 lg:mx-48 md:p-4">
+            <div class="mt-8 rounded text-xl flex flex-col gap-4 ">
                 <h1 class="text-8xl text-white mt-2 font-['South']">MARKUS</h1>
                 <p class="text-white lg:text-2xl font-semibold">Olen 17-aastane noorem tarkvaraarendaja ja õpin Kuressaare Ametikoolis. Oskan juba html-i ja css-iga lihtsamaid veebilehti teha ning olen õppinud veel Pythonit, Javascripti, Mysqli, linuxi terminali jne.
                     Ma arvan et ma olen sõbralik, seltskondlik ja avatud inimene, oskan inimestega suhelda ja leian kiiresti sõpru.
@@ -19,7 +19,27 @@
                     </div>
 
             </div>
-            
+            <div class="mt-4">
+                <h1 class="text-white text-4xl">Projektid</h1>
+                <div class="flex gap-12 text-center text-white font-semibold text-2xl">
+                    <div class="mt-4 bg-black w-72 h-72">
+                        <h1 class="">Laravel - <br> veebipood</h1>
+                    </div>
+                    <div class="mt-4 bg-white w-72 h-72">
+    
+                    </div>
+                    <div class="mt-4 bg-white w-72 h-72">
+    
+                    </div>
+                    <div class="mt-4 bg-white w-72 h-72">
+    
+                    </div>
+                    <div class="mt-4 bg-white w-72 h-72">
+    
+                    </div>
+                </div>
+
+            </div>
             
         </div>
 
