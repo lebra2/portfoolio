@@ -10,7 +10,7 @@ import MobileLinks from '../components/MobileLinks.vue';
 </script>
 
 <template>
-    <div>
+    <div class="">
         <Navigation />
         <div class="md:hidden">
             <HomeButton/>
@@ -18,10 +18,10 @@ import MobileLinks from '../components/MobileLinks.vue';
 
         <div class="lg:h-screen">
             <AboutMe/>
-            <div class="lg:h-screen">
+            <div class="lg:h-screen bg-black">
                 <Projects/>
             </div>
-            <div class="lg:h-screen">
+            <div class="lg:h-screen bg-black">
                 <MobileLinks/>
             </div>
 

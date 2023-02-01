@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center bg-black bg-opacity-50 text-white items-center m-4 flex-col md:my-32 gap-4">
+    <div class="flex justify-center bg-black text-white items-center m-4 flex-col md:my-32 gap-4">
         <div class="md:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 my-12">
             <div class="w-[300px] lg:w-[400px]">
                 <a class="" href="https://open.spotify.com/album/449Zm5tF0XMRI5Rz6EBmJ3" target="_blank"><img class="flex md:hover:scale-105 trans035 rounded" src="../assets/Pictures/usaldus.png" alt=""></a>
