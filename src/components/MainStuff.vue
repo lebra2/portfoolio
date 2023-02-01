@@ -1,5 +1,5 @@
 <template>
-    <div class="font-['League'] bg-black bg-opacity-50 md:h-auto md:grid flex flex-col md:grid-cols-2 xl:mx-12 2xl:mx-48 p-4 lg:my-12 lg:gap-24">
+    <div class="font-['League'] bg-black bg-opacity-50 md:grid flex flex-col md:grid-cols-2 xl:mx-12 2xl:mx-48 p-4  lg:gap-24">
         <div class="flex justify-center md:hidden ">
             <div class="">
                 <a href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA"><img class="w-12 p-2 h-12" src="../assets/Pictures/spotify.png" alt=""></a>
