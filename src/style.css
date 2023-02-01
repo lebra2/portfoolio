@@ -49,3 +49,11 @@
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+.anchor{
+    position: relative;
+    padding-top: 200px;
+}

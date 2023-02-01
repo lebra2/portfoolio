@@ -4,6 +4,7 @@ import Mainfooter from '../components/Mainfooter.vue';
 import AboutMe from '../components/AboutMe.vue';
 import Projects from '../components/Projects.vue';
 import HomeButton from '../components/HomeButton.vue';
+import MobileLinks from '../components/MobileLinks.vue';
 
 
 </script>
@@ -15,9 +16,15 @@ import HomeButton from '../components/HomeButton.vue';
             <HomeButton/>
         </div>
 
-        <div class="min-h-[70vh]">
+        <div class="lg:h-screen">
             <AboutMe/>
-            <Projects/>
+            <div class="lg:h-screen">
+                <Projects/>
+            </div>
+            <div class="lg:h-screen">
+                <MobileLinks/>
+            </div>
+
 
         </div>
         <Mainfooter />

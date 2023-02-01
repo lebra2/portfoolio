@@ -1,27 +1,29 @@
 <template>
-    <div class="p-4">
-        <h1 class="lg:px-24 lg:mx-24 2xl:mx-48 2xl:px-48 text-white text-3xl mt-4 font-['Jetbrains']">Projektid:</h1>
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-2 lg:px-24 lg:mx-24 2xl:mx-48 2xl:px-48">
-    
-            <div class="rounded-md w-full h-72 bg-black flex justify-center items-center">
-                <h1 class="text-white text-center">Projekt 1</h1>
-            </div>
-            <div class="rounded-md w-full h-72 bg-black flex justify-center items-center">
-                <h1 class="text-white text-center">Projekt 1</h1>
-            </div>
-            <div class="rounded-md w-full h-72 bg-black flex justify-center items-center">
-                <h1 class="text-white text-center">Projekt 1</h1>
-            </div>
-            <div class="rounded-md w-full h-72 bg-black flex justify-center items-center">
-                <h1 class="text-white text-center">Projekt 1</h1>
-            </div>
-            <div class="rounded-md w-full h-72 bg-black flex justify-center items-center">
-                <h1 class="text-white text-center">Projekt 1</h1>
-            </div>
-            <div class="rounded-md w-full h-72 bg-black flex justify-center items-center">
-                <h1 class="text-white text-center">Projekt 1</h1>
-            </div>
-        </div> 
+    <div id="projektid" class="anchor p-4 lg:px-24 lg:mx-24 2xl:mx-48 2xl:px-48 lg:text-center">
+        <h1 class=" text-white text-4xl mt-4 font-['Jetbrains']">Hiljutised projektid</h1>
+        <ul class="marker:text-gray-400 font-semibold list-inside list-decimal text-white flex flex-col gap-4 mt-4 text-2xl">
+            <li class="">
+                <a href="">Noor Meister 2022</a>
+            </li>
+            <li>
+                <a href="">Projekt 1</a>
+            </li>
+            <li>
+                <a href="">Projekt 1</a>
+            </li>
+            <li>
+                <a href="">Projekt 1</a>
+            </li>
+            <li>
+                <a href="">Projekt 1</a>
+            </li>
+            <li>
+                <a href="">Projekt 1</a>
+            </li>
+
+
+        </ul>
+
     </div>
 
 </template>
