@@ -18,6 +18,20 @@
     src: url(../src/assets/fonts/South.ttf);
 }
 
+@font-face {
+    font-family: "Start";
+    src: url(../src/assets/fonts/Start.ttf);
+}
+
+@font-face {
+    font-family: "Bangers";
+    src: url(../src/assets/fonts/Bangers.ttf);
+}
+
+@font-face {
+    font-family: "JetBrains";
+    src: url(../src/assets/fonts/Jet/JetBrainsMono-Regular.ttf);
+}
 
 .menuButtons {
     position: fixed;
