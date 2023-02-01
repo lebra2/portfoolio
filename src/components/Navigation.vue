@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <nav id="nav" class="sticky bg-black bg-opacity-50 md:bg-opacity-0 top-0 z-50 md:z-1 md:flex md:items-center md:justify-between">
+        <nav id="nav" class="sticky top-0 z-50 md:z-1 md:flex md:items-center md:justify-between">
             <div class="flex flex-row justify-between sticky ">
                 <div class="flex font-['South']">
                     <a href="https://www.lebra.ee/" class="flex text-white p-4 text-4xl font-bold sm:ml-4">LEBRA</a>
