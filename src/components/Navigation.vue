@@ -16,11 +16,6 @@
                         </router-link>
                     </li>
                     <li class="mx-4 my-6 md:my-0">
-                        <router-link to="/Portfolio" class="text-xl hover-underline-animation text-white hover:text-red-600 trans02">
-                            Portfoolio
-                        </router-link>
-                    </li>
-                    <li class="mx-4 my-6 md:my-0">
                         <router-link to="/Disko" class="text-xl hover-underline-animation text-white hover:text-red-600 trans02">
                             Muusika
                         </router-link>
