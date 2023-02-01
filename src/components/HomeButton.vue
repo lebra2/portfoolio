@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 let expanded = false;
 function expandMenu() {
     if(!expanded) {
@@ -28,4 +28,4 @@ function expandMenu() {
     <router-link to="/Disko" id="audioLink" class="menuButtons" style="z-index: 47;">
         <img src="../assets/Pictures/music-note.png" class="" alt="">
     </router-link>
-</template>
+</template> -->
