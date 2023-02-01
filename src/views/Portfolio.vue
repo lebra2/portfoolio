@@ -6,7 +6,6 @@ import Projects from '../components/Projects.vue';
 import HomeButton from '../components/HomeButton.vue';
 import MobileLinks from '../components/MobileLinks.vue';
 
-
 </script>
 
 <template>
@@ -18,10 +17,10 @@ import MobileLinks from '../components/MobileLinks.vue';
 
         <div class="lg:h-screen">
             <AboutMe/>
-            <div class="lg:h-screen bg-black">
+            <div class="lg:h-screen bg-[#101010]">
                 <Projects/>
             </div>
-            <div class="lg:h-screen bg-black">
+            <div class="lg:h-screen bg-[#181818]">
                 <MobileLinks/>
             </div>
 
