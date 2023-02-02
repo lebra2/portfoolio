@@ -27,9 +27,7 @@
     </router-link>
     <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#projektid">Projektid</a>
     <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#lingid">Lingid</a>
-    <router-link to="/Contact">
-        <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="#">Kontakt</h1>
-    </router-link>
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#Contact">Kontakt</a>
     <a class="block text-yellow-300 px-4 py-2 text-white hover:bg-gray-800" href="#lingid">Muusika</a>
 
     
