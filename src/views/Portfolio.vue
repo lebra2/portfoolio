@@ -9,10 +9,6 @@ import MobileLinks from '../components/MobileLinks.vue';
 <template>
     <div class="">
         <Navigation />
-        <div class="md:hidden">
-            <HomeButton/>
-        </div>
-
         <div class="lg:h-screen">
             <AboutMe/>
             <div class="lg:h-screen bg-[#101010]">
@@ -24,6 +20,5 @@ import MobileLinks from '../components/MobileLinks.vue';
 
 
         </div>
-        <Mainfooter />
     </div>
 </template>
