@@ -1,9 +1,9 @@
 <template>
   <div class="flex items-center justify-between px-6 py-4">
     <div class="text-xl font-medium text-white">
-      <h1 class="font-['Jetbrains'] text-2xl">LEBRA</h1>
+      <h1 class="font-['Jetbrains'] text-2xl"><b> .> Markus </b></h1>
     </div>
-    <nav class="lg:flex hidden">
+    <nav class="lg:flex hidden sticky">
       <router-link to="/">
         <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="#">Home</h1>
     </router-link>
@@ -21,7 +21,7 @@
       </svg>
     </button>
   </div>
-  <nav class="py-4 p-2 lg:hidden" v-if="isOpen">
+  <nav class="font-['Jetbrains'] py-4 p-2 lg:hidden" v-if="isOpen">
     <router-link to="/">
         <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="#">Home</h1>
     </router-link>
@@ -30,6 +30,7 @@
     <router-link to="/Contact">
         <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="#">Kontakt</h1>
     </router-link>
+    <a class="block text-yellow-300 px-4 py-2 text-white hover:bg-gray-800" href="#lingid">Muusika</a>
 
     
   </nav>

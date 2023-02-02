@@ -1,5 +1,5 @@
 <template>
-    <div id="projektid" class="h-screen flex flex-col justify-center items-center p-4 lg:px-24 lg:mx-24 2xl:mx-48 2xl:px-48 text-center">
+    <div id="projektid" class="h-screen flex flex-col justify-center lg:items-center p-4 lg:px-24 lg:mx-24 2xl:mx-48 2xl:px-48 text-left lg:text-center">
         <h1 class=" text-white text-4xl mt-4 font-['Jetbrains']">Hiljutised projektid</h1>
         <ul class="marker:text-gray-400 font-semibold list-inside list-decimal flex flex-col gap-4 text-white lg:text-2xl font-semibold mt-4 font-['Jetbrains']">
             <li class="">
