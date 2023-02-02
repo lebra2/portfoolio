@@ -1,4 +1,4 @@
-<!-- <template> 
+<template> 
 
 <div class="h-full 2xl:mx-48 2xl:px-48 lg:px-24 lg:mx-24 lg:mt-24 py-4">
 <div class="text-left h-full mx-4">
@@ -15,58 +15,4 @@
 </div>
 
 </div>
-</template> -->
-
-<script>
-import SunCalc from "";
-
-export default {
-  data() {
-    return {
-      phase: "",
-      moonImage: ""
-    };
-  },
-  mounted() {
-    this.updateMoonPhase();
-    setInterval(() => {
-      this.updateMoonPhase();
-    }, 60000);
-  },
-  methods: {
-    updateMoonPhase() {
-      const date = new Date();
-      const moon = SunCalc.getMoonIllumination(date);
-      this.phase = this.getMoonPhase(moon.phase);
-      this.moonImage = `https://moon.nasa.gov/system/resources/detail_files/1369_Io_WAc_2048.jpg`;
-    },
-    getMoonPhase(phase) {
-      if (phase < 0.03 || phase > 0.97) return "New Moon";
-      if (phase < 0.06) return "Waxing Crescent";
-      if (phase < 0.12) return "First Quarter";
-      if (phase < 0.18) return "Waxing Gibbous";
-      if (phase < 0.22) return "Full Moon";
-      if (phase < 0.29) return "Waning Gibbous";
-      if (phase < 0.35) return "Third Quarter";
-      if (phase < 0.41) return "Waning Crescent";
-      return "";
-    }
-  }
-};
-</script>
-<template>
-  <div class="bg-black" :style="{ backgroundImage: `url(${moonImage})` }">
-    <div class="h-screen flex items-center justify-center">
-      <div class="text-white text-4xl">{{ phase }}</div>
-    </div>
-  </div>
 </template>
-
-<style>
-  .bg-black {
-    background-color: #333;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-</style>
