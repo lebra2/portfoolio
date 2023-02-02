@@ -3,7 +3,7 @@
     <div class="text-xl font-medium text-white">
       <h1 class="font-['Jetbrains'] text-2xl">LEBRA</h1>
     </div>
-    <nav class="flex">
+    <nav class="lg:flex hidden">
       <router-link to="/">
         <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="#">Home</h1>
     </router-link>
