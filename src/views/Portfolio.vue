@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import Navigation from '../components/Navigation.vue';
 import AboutMe from '../components/AboutMe.vue';
 import Projects from '../components/Projects.vue';
