@@ -1,9 +1,7 @@
 <script setup>
 import Navigation from '../components/Navigation.vue';
-import Mainfooter from '../components/Mainfooter.vue';
 import AboutMe from '../components/AboutMe.vue';
 import Projects from '../components/Projects.vue';
-import HomeButton from '../components/HomeButton.vue';
 import MobileLinks from '../components/MobileLinks.vue';
 
 </script>
