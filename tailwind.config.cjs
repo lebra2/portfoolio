@@ -16,6 +16,11 @@ module.exports = {
         soundcloud: '#ff7700',
         youtube: '#FF0000',
         ig: '#3f729b',
+        vue: '#41b883',
+        tailwind: '#63B3ED',
+        python: '#ffe873',
+        sql: '#f29111',
+        php: '#b0b3d6',
       }
     },
   },
