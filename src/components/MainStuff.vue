@@ -1,26 +1,5 @@
 <template>
     <div class="font-['League'] bg-black bg-opacity-50 md:grid flex flex-col md:grid-cols-2 xl:mx-12 2xl:mx-48 p-4  lg:gap-24">
-        <div class="flex justify-center md:hidden ">
-            <div class="">
-                <a href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA"><img class="w-12 p-2 h-12" src="../assets/Pictures/spotify.png" alt=""></a>
-            </div>
-            <div class="">
-                <a href="https://www.instagram.com/_lebra_/"><img class="w-12 p-2 h-12" src="../assets/Pictures/instagram.png" alt=""></a>
-            </div>
-            <div class="">
-                <a href="https://music.apple.com/us/artist/lebra/911175623"><img class="w-12 p-2 h-12" src="../assets/Pictures/music-note.png" alt=""></a>
-            </div>
-            <div class="">
-                <a href="https://www.tiktok.com/@lebraofficial"><img class="w-12 p-2 h-12" src="../assets/Pictures/tik-tok.png" alt=""></a>
-            </div>
-            <div class="">
-                <a href="https://soundcloud.com/lebraofficial?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><img class="w-12 p-2 h-12" src="../assets/Pictures/soundcloud.png" alt=""></a>
-            </div>
-            <div class="">
-                <a href="https://www.youtube.com/channel/UCM6xFVWK2ARMtvBPvEMho9w"><img class="w-12 p-2 h-12" src="../assets/Pictures/youtube.png" alt=""></a>
-            </div>
-        </div>
-
         <div class=" h-full">
             <div class="">
                 <a class="" href="https://open.spotify.com/album/449Zm5tF0XMRI5Rz6EBmJ3?si=r534OT6eSmW_syQM8yntsQ" target="_blank"><img class="flex trans035 rounded p-8" src="../assets/Pictures/usaldus.png" alt=""></a>
