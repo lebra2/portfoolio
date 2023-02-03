@@ -8,8 +8,11 @@ import MobileLinksVue from '../components/MobileLinks.vue';
 
 <template>
     
-    <div class="bg-black">
-        <Navigation />
+    <div class="bg-[#181818]">
+        <div class="bg-[#212121]">
+            <Navigation />
+        </div>
+
             <MainStuff/>
             <MobileLinksVue/>
         <Mainfooter />

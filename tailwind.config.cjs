@@ -16,6 +16,7 @@ module.exports = {
         soundcloud: '#ff7700',
         youtube: '#FF0000',
         ig: '#3f729b',
+        second: '#AAAAAA',
       }
     },
   },

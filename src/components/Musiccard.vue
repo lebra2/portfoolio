@@ -1,22 +1,23 @@
 <template>
-    <div class="flex flex-col items-center bg-gray-500 h-screen justify-center">
-      <div class="flex mt-10">
-        <button class="text-xl text-gray-500 hover:text-gray-900 font-bold px-8 py-2 rounded-full" @click="prevSong">
-          <img class="w-8 h-8" src="../assets/Pictures/icons8-left-arrow-90.png" alt="">
+    <div class="h-[100vh] lg:justify-center flex flex-col py-24 items-center lg:px-24 lg:mx-24 2xl:mx-48 2xl:px-48">
+        <h1 class="text-white text-4xl">Diskograafia</h1>
+      <div class="flex mt-10 gap-4">
+        <button class="text-gray-500 font-bold py-2 rounded-full" @click="prevSong">
+          <p>Prev</p>
         </button>
         <img :src="currentSong.image" class="w-64 h-64 object-cover rounded-lg"/>
-        <button class="text-xl text-gray-500 hover:text-gray-900 font-bold px-8 py-2 rounded-full" @click="nextSong">
-            <img class="w-8 h-8" src="../assets/Pictures/icons8-right-arrow-90.png" alt="">
+        <button class=" text-gray-500 font-bold py-2 rounded-full" @click="nextSong">
+            <p>Next</p>
         </button>
       </div>
-      <div class="dropdown mt-10">
-        <select class="bg-white border border-gray-400 py-2 px-4" v-model="selectedSongIndex">
+      <div class="dropdown mt-10 ">
+        <select class="bg-[#212121] text-white border border-gray-400 py-2 px-4" v-model="selectedSongIndex">
           <option v-for="(song, index) in songs" :key="index" :value="index">
             {{ song.title }}
           </option>
         </select>
       </div>
-      <p class="text-xl font-medium mt-10">{{ currentSong.title }} ({{ currentIndex + 1 }}/{{ songs.length }})</p>
+      <p class="text-xl text-second font-medium mt-10">{{ currentSong.title }} ({{ currentIndex + 1 }}/{{ songs.length }})</p>
     </div>
   </template>
   
