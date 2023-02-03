@@ -1,6 +1,91 @@
 <template>
-    <div class="flex justify-center bg-black bg-opacity-50 text-white items-center flex-col gap-4 bg-black">
-        <div class="md:grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-12 my-12">
+    <div class="flex flex-col items-center bg-gray-500 h-screen justify-center">
+      <div class="flex mt-10">
+        <button class="text-xl text-gray-500 hover:text-gray-900 font-bold px-8 py-2 rounded-full" @click="prevSong">
+          <img class="w-8 h-8" src="../assets/Pictures/icons8-left-arrow-90.png" alt="">
+        </button>
+        <img :src="currentSong.image" class="w-64 h-64 object-cover rounded-lg"/>
+        <button class="text-xl text-gray-500 hover:text-gray-900 font-bold px-8 py-2 rounded-full" @click="nextSong">
+            <img class="w-8 h-8" src="../assets/Pictures/icons8-right-arrow-90.png" alt="">
+        </button>
+      </div>
+      <div class="dropdown mt-10">
+        <select class="bg-white border border-gray-400 py-2 px-4" v-model="selectedSongIndex">
+          <option v-for="(song, index) in songs" :key="index" :value="index">
+            {{ song.title }}
+          </option>
+        </select>
+      </div>
+      <p class="text-xl font-medium mt-10">{{ currentSong.title }} ({{ currentIndex + 1 }}/{{ songs.length }})</p>
+    </div>
+  </template>
+  
+  <script>
+  import { ref, onMounted, watch } from 'vue'
+  
+  export default {
+    setup() {
+      const songs = [
+        { title: 'Mis on usaldus', image: 'src/assets/Pictures/usaldus.png' },
+        { title: 'Ei Saa', image: 'src/assets/Pictures/EiSaa.png' },
+        { title: 'Kui Sind Naen', image: 'src/assets/Pictures/kuisindnaen.jpg' },
+        { title: 'Mis on usaldus', image: 'src/assets/Pictures/usaldus.png' },
+        { title: 'Ei Saa', image: 'src/assets/Pictures/EiSaa.png' },
+        { title: 'Kui Sind Naen', image: 'src/assets/Pictures/kuisindnaen.jpg' },
+        { title: 'Mis on usaldus', image: 'src/assets/Pictures/usaldus.png' },
+        { title: 'Ei Saa', image: 'src/assets/Pictures/EiSaa.png' },
+        { title: 'Kui Sind Naen', image: 'src/assets/Pictures/kuisindnaen.jpg' },
+        { title: 'Mis on usaldus', image: 'src/assets/Pictures/usaldus.png' },
+        { title: 'Ei Saa', image: 'src/assets/Pictures/EiSaa.png' },
+        { title: 'Kui Sind Naen', image: 'src/assets/Pictures/kuisindnaen.jpg' },
+        { title: 'Mis on usaldus', image: 'src/assets/Pictures/usaldus.png' },
+        { title: 'Ei Saa', image: 'src/assets/Pictures/EiSaa.png' },
+        { title: 'Kui Sind Naen', image: 'src/assets/Pictures/kuisindnaen.jpg' },
+      ]
+      const currentIndex = ref(0)
+      const currentSong = ref(songs[currentIndex.value])
+      const selectedSongIndex = ref(0)
+  
+      function prevSong() {
+        currentIndex.value = (currentIndex.value + songs.length - 1) % songs.length
+        currentSong.value = songs[currentIndex.value]
+      }
+  
+      function nextSong() {
+        currentIndex.value = (currentIndex.value + 1) % songs.length
+        currentSong.value = songs[currentIndex.value]
+      }
+  
+      watch(() => selectedSongIndex.value, (index) => {
+        currentIndex.value = index
+        currentSong.value = songs[currentIndex.value]
+      })
+  
+      onMounted(() => {
+        currentSong.value = songs[currentIndex.value]
+      })
+  
+      return {
+        songs,
+        currentIndex,
+        currentSong,
+        prevSong,
+        nextSong,
+        selectedSongIndex
+      }
+    }
+  }
+  </script>
+
+  
+  
+
+  
+
+
+<!-- <template>
+    <div class="flex justify-center text-white items-center flex-col bg-black">
+        <div class="md:grid flex flex-col sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <div class="w-[300px] lg:w-[400px]">
                 <a class="" href="https://open.spotify.com/album/449Zm5tF0XMRI5Rz6EBmJ3" target="_blank"><img class="flex md:hover:scale-105 trans035 rounded" src="../assets/Pictures/usaldus.png" alt=""></a>
                 <div class="">
@@ -75,4 +160,5 @@
 
     </div>
 
-</template>
+</template> -->
+

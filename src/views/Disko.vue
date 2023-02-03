@@ -6,8 +6,11 @@ import Musiccard from '../components/Musiccard.vue';
 
 <template>
     
-    <div class="bg-black">
-        <Navigation />
+    <div class="font-['Jetbrains']">
+        <div class="bg-black">
+            <Navigation />
+        </div>
+
         <Musiccard/>
     </div>
 </template>

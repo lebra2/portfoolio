@@ -18,6 +18,11 @@
     src: url(../src/assets/fonts/South.ttf);
 }
 
+@font-face {
+    font-family: "Jetbrains";
+    src: url(../src/assets/fonts/Jet/JetBrainsMono-Regular.ttf);
+}
+
 
 .menuButtons {
     position: fixed;

@@ -1,30 +1,48 @@
 <template>
-    <div class="">
-        <nav id="nav" class="sticky bg-black bg-opacity-50 md:bg-opacity-0 top-0 z-50 md:z-1 md:flex md:items-center md:justify-between">
-            <div class="flex flex-row justify-between sticky ">
-                <div class="flex font-['South']">
-                    <router-link to="/" class="flex text-white p-4 text-4xl font-bold sm:ml-4">
-                        LEBRA
-                    </router-link>
-
-                </div>
-            </div>
-                <ul id="" class="sm:mr-4 md:items-center md:flex z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
-                    <li class="mx-4 my-6 md:my-0">
-                        <router-link to="/" class="text-xl hover-underline-animation text-white hover:text-red-600 trans02">
-                            Kodu
-                        </router-link>
-                    </li>
-                    <li class="mx-4 my-6 md:my-0">
-                        <router-link to="/Disko" class="text-xl hover-underline-animation text-white hover:text-red-600 trans02">
-                            Muusika
-                        </router-link>
-                    </li>
-                    
-                </ul>
-        </nav>
-          
-
-        
+  <div class="flex px-6 py-4 justify-between items-center font-['Jetbrains']">
+    <div class="text-xl font-medium text-white">
+      <h1 class="text-4xl">LEBRA</h1>
     </div>
+    <nav class="lg:flex hidden sticky">
+      <router-link to="/">
+        <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="#">Home</h1>
+    </router-link>
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#projektid">Projektid</a>
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#lingid">Lingid</a>
+    <router-link to="/Contact">
+        <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="#Contact">Kontakt</h1>
+    </router-link>
+  
+    </nav>
+    <button class="lg:hidden flex text-white focus:outline-none " @click="isOpen = !isOpen">
+      <svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
+        <path v-if="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
+        <path v-if="isOpen" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.828-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.828z"/>
+      </svg>
+    </button>
+  </div>
+  <nav class="py-4 p-2 font-['Jetbrains'] lg:hidden" v-if="isOpen">
+    <router-link to="/">
+        <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="#">Kodu</h1>
+    </router-link>
+    <router-link to="/Disko" class="block px-4 py-2 text-white hover:bg-gray-800" href="">Muusika</router-link>
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#lingid">Biidid</a>
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#Contact">Kontakt</a>
+    <a class="block text-yellow-300 px-4 py-2 text-white hover:bg-gray-800" href="#lingid">Minust</a>
+
+    
+  </nav>
+  
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isOpen: false,
+    };
+  },
+};
+
+
+</script>
