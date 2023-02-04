@@ -6,7 +6,7 @@
             </div>
             <div class="gap-2 text-white text-2xl flex justify-center flex-col items-center">
                 <h1 class="text-4xl">Mis on usaldus?</h1>
-                <h2 class="font-semibold text-red-500 text-5xl">NÜÜD ÜLEVAL!</h2>
+                <h2 class="font-semibold text-red-500 text-5xl text-center">NÜÜD ÜLEVAL!</h2>
             </div>
             <div class="gap-4 p-4 text-white text-2xl flex justify-center flex-col items-center">
                 <a class="bg-white bg-opacity-5 rounded-full p-2 text-spotify" href="https://open.spotify.com/album/449Zm5tF0XMRI5Rz6EBmJ3?si=r534OT6eSmW_syQM8yntsQ">Spotify</a>
