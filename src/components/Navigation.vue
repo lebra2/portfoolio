@@ -1,17 +1,16 @@
 <template>
   <div class="flex px-6 py-4 justify-between items-center font-['Jetbrains']">
     <div class="text-xl font-medium text-white">
-      <h1 class="text-4xl">lebra <b class="text-lg font-medium ">/ Markus</b></h1>
+      <h1 class="text-4xl">lebra <a href="https://markus.lebra.ee/" class="text-lg font-medium ">/ Markus</a></h1>
     </div>
     <nav class="lg:flex hidden sticky">
       <router-link to="/">
         <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="#">Home</h1>
     </router-link>
     <router-link to="/Disko" class="block px-4 py-2 text-white hover:bg-gray-800" href="">Muusika</router-link>
-    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#lingid">Lingid</a>
-    <router-link to="/Contact">
-        <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="#Contact">Kontakt</h1>
-    </router-link>
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#biidid">Biidid</a>
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#minust">Minust</a>
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#kontakt">Kontakt</a>
   
     </nav>
     <button class="lg:hidden flex text-white focus:outline-none " @click="isOpen = !isOpen">
@@ -26,9 +25,9 @@
         <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="">Kodu</h1>
     </router-link>
     <router-link to="/Disko" class="block px-4 py-2 text-white hover:bg-gray-800" href="">Muusika</router-link>
-    <a to="" class="block px-4 py-2 text-white hover:bg-gray-800" href="#biidid">Biidid</a>
-    <a to="/Disko" class="block px-4 py-2 text-white hover:bg-gray-800" href="#minust">Minust</a>
-    <a to="/Disko" class="block px-4 py-2 text-white hover:bg-gray-800" href="#kontakt">Kontakt</a>
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#biidid">Biidid</a>
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#minust">Minust</a>
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#kontakt">Kontakt</a>
 
     
   </nav>

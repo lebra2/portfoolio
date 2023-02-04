@@ -1,5 +1,5 @@
 <template>
-    <div class="font-['League'] md:grid flex flex-col md:grid-cols-2 xl:mx-12 2xl:mx-48 p-4  lg:gap-24">
+    <div class="font-['Jetbrains'] md:grid flex flex-col md:grid-cols-2 xl:mx-12 2xl:mx-48 p-4 lg:gap-24">
         <div class=" h-full">
             <div class="">
                 <a class="" href="https://open.spotify.com/album/449Zm5tF0XMRI5Rz6EBmJ3?si=r534OT6eSmW_syQM8yntsQ" target="_blank"><img class="flex trans035 rounded p-8" src="../assets/Pictures/usaldus.png" alt=""></a>
@@ -19,7 +19,7 @@
 
 
         </div>
-        <div class="mt-4 text-white text-center shadow-md bg-white bg-opacity-5 lg:p-8">
+        <div  id="minust" class="mt-4 text-white text-center shadow-md bg-white bg-opacity-5 lg:p-8">
             <div class="p-2">
                 <img class="h-96 w-full p-4 rounded-lg" style="object-fit:cover" src="../assets/Pictures/1656201069095(1).jpg" alt="">
                 <h1 class="text-4xl font-semibold my-4 font-['South']">LEBRA</h1>
@@ -30,7 +30,16 @@
             </div>
             <iframe class="h-[60vh]" style="border-radius:12px" src="https://open.spotify.com/embed/artist/70PCvEt9nvUsGdQQCjF1re?utm_source=generator&theme=0" width="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             
-
+            <div id="biidid" class="">
+                <div class="py-4">
+                    <h1 class="text-white text-2xl text-center">Tutvu biitidega</h1>
+                    <a class="text-second" href="https://www.youtube.com/@lbra9456/featured">lebra beats - youtube</a>
+                </div>
+                <div class="flex justify-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/24p9K_sB2OE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                
+            </div>
         </div>
 
 
