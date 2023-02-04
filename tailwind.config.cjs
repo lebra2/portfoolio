@@ -17,6 +17,11 @@ module.exports = {
         youtube: '#FF0000',
         ig: '#3f729b',
         second: '#AAAAAA',
+      },
+
+      scale: {
+        '200': '2',
+        '175': '1.75',
       }
     },
   },

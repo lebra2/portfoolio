@@ -9,8 +9,8 @@ import About from '../components/About.vue';
 
 <template>
     
-    <div class="bg-[#181818]">
-        <div class="bg-black bg-opacity-25">
+    <div class="">
+        <div class="">
             <Navigation />
             <MainStuff/>
         </div>
