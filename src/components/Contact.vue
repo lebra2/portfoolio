@@ -1,5 +1,5 @@
 <template>
-    <div id="kontakt" class="flex flex-col md:grid-cols-2 xl:mx-12 2xl:mx-72 p-4 lg:gap-24">
+    <div id="kontakt" class="flex lg:h-screen flex-col md:grid-cols-2 xl:mx-12 2xl:mx-72 p-4 lg:gap-24">
         <form class="bg-[#181818] text-white p-6 font-['Jetbrains'] rounded-lg shadow-md" @submit.prevent="handleSubmit">
             <h2 class="text-2xl font-medium mb-4 text-center">Kribame</h2>
             <div class="mb-4">

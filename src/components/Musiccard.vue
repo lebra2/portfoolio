@@ -27,21 +27,16 @@
   export default {
     setup() {
       const songs = [
-        { title: 'Mis on usaldus', image: 'src/assets/Pictures/usaldus.png' },
+        { title: 'Mis on usaldus', image: '../assets/Pictures/usaldus.png' },
         { title: 'Ei Saa', image: 'src/assets/Pictures/EiSaa.png' },
-        { title: 'Kui Sind Naen', image: 'src/assets/Pictures/kuisindnaen.jpg' },
-        { title: 'Mis on usaldus', image: 'src/assets/Pictures/usaldus.png' },
-        { title: 'Ei Saa', image: 'src/assets/Pictures/EiSaa.png' },
-        { title: 'Kui Sind Naen', image: 'src/assets/Pictures/kuisindnaen.jpg' },
-        { title: 'Mis on usaldus', image: 'src/assets/Pictures/usaldus.png' },
-        { title: 'Ei Saa', image: 'src/assets/Pictures/EiSaa.png' },
-        { title: 'Kui Sind Naen', image: 'src/assets/Pictures/kuisindnaen.jpg' },
-        { title: 'Mis on usaldus', image: 'src/assets/Pictures/usaldus.png' },
-        { title: 'Ei Saa', image: 'src/assets/Pictures/EiSaa.png' },
-        { title: 'Kui Sind Naen', image: 'src/assets/Pictures/kuisindnaen.jpg' },
-        { title: 'Mis on usaldus', image: 'src/assets/Pictures/usaldus.png' },
-        { title: 'Ei Saa', image: 'src/assets/Pictures/EiSaa.png' },
-        { title: 'Kui Sind Naen', image: 'src/assets/Pictures/kuisindnaen.jpg' },
+        { title: 'Hingekaaslane', image: '../assets/Pictures/hingekaaslane.png' },
+        { title: 'Lahti Lasta', image: '../assets/Pictures/lahti.jpg' },
+        { title: 'Lõpp', image: '../assets/Pictures/Lõpp(1).png' },
+        { title: 'Kui Sind Näen', image: '../assets/Pictures/kuisindnaen.jpg' },
+        { title: 'Šedööver', image: '../assets/Pictures/sedööver.png' },
+        { title: 'Vöörad', image: '../assets/Pictures/vöörad.png' },
+        { title: 'Ajad me ees', image: '../assets/Pictures/ajad.jpg' },
+        { title: 'Unistuste Allee', image: '../assets/Pictures/allee.png' },
       ]
       const currentIndex = ref(0)
       const currentSong = ref(songs[currentIndex.value])

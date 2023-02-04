@@ -1,10 +1,9 @@
 <script setup>
-import About from '../components/About.vue';
 import Navigation from '../components/Navigation.vue';
 import MainStuff from '../components/MainStuff.vue';
 import MobileLinksVue from '../components/MobileLinks.vue';
 import Contact from '../components/Contact.vue';
-
+import About from '../components/About.vue';
 
 </script>
 
@@ -15,8 +14,9 @@ import Contact from '../components/Contact.vue';
             <Navigation />
             <MainStuff/>
         </div>
+        <div class="">
             <About/>
-            <Contact/>
-            <MobileLinksVue/>
+        </div>
+
     </div>
 </template>
