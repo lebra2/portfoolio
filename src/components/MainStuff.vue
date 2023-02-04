@@ -14,7 +14,6 @@
                 <a class="bg-white bg-opacity-5 rounded-md p-1" href="https://open.spotify.com/album/449Zm5tF0XMRI5Rz6EBmJ3?si=r534OT6eSmW_syQM8yntsQ">Spotify</a>
                 <a class="bg-white bg-opacity-5 rounded-md p-1" href="https://www.youtube.com/watch?v=MZp_g3Vx_zY">Youtube</a>
             </div>
-            <h1 class="text-white text-center pt-8">Uus laul räägib usalduse kaotusest ja selle taastamisest. See kõneleb sellest, kuidas me kõik oleme kogenud pettust. Laulus käsitletakse ka vajadust leida uuesti usaldus ja õppida andestama, et saaksime edasi liikuda ja leida rõõmu elus.</h1>
         </div>
     </div>
 
