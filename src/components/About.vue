@@ -1,20 +1,8 @@
 <template>
-        <div id="minust" class="text-white text-center lg:p-8 h-screen">
-
-            <div class="gap-4 text-white text-2xl flex justify-center flex-col items-center">
-            </div>
-            <iframe class="h-[60vh] p-8" style="border-radius:12px" src="https://open.spotify.com/embed/artist/70PCvEt9nvUsGdQQCjF1re?utm_source=generator&theme=0" width="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            <div class="">
-                <h1 class="text-6xl font-extrabold font-['South']">LEBRA</h1>
-                <h2 class="text-lg">Noor Eesti räppartist/produtsent, kelle lood on peamiselt armastusest. <br> Lebra alustas oma muusika avaldamisega 2019. aastal Soundcloudis ning on nüüd jõudnud mitmete tuhandete kuulajateni. <br>
-                 Lood on üleval nüüdseks platvormidel nagu Spotify, Youtube, Soundcloud, Apple Music, Deezer ja mujal.</h2>
-            </div>
-            <div id="biidid" class="">
-                <div class="py-4">
-                    <h1 class="text-white text-2xl text-center">Tutvu biitidega</h1>
-                    <a class="text-second" href="https://www.youtube.com/@lbra9456/featured">lebra beats - youtube</a>
-                </div>
-                
+        <div id="minust" class="text-white text-center flex flex-col md:justify-center md:items-center gap-12 h-screen p-8">
+            <div class="lg:grid justify-between lg:grid-cols-2 gap-24">
+                <iframe class="h-[60vh] w-full sm:w-[50vh] lg:w-[32rem]" style="border-radius:12px" src="https://open.spotify.com/embed/artist/70PCvEt9nvUsGdQQCjF1re?utm_source=generator&theme=0" width="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe class="hidden lg:h-[60vh] lg:block w-full lg:w-[32rem] rounded-lg" width="" height="" src="https://www.youtube.com/embed/MZp_g3Vx_zY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
 </template>
