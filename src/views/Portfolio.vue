@@ -10,15 +10,15 @@ import Contact from '../components/Contact.vue';
 <template>
     <div class="">
         <Navigation />
-        <div class="lg:h-screen">
+        <div class="">
             <AboutMe/>
-            <div class="lg:h-screen bg-[#101010]">
+            <div class="">
                 <Projects/>
             </div>
-            <div class="lg:h-screen bg-[#181818]">
+            <div class="">
                 <MobileLinks/>
             </div>
-            <div class="lg:h-screen bg-[#181818]">
+            <div class="">
                 <Contact/>
             </div>
 

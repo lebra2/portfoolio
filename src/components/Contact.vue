@@ -6,7 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div id="Contact" class="h-screen bg-[#080808] text-white font-['Jetbrains'] flex justify-center text-2xl items-center flex-col">
+    <div id="Contact" class="h-screen text-white font-['Jetbrains'] flex justify-center text-2xl items-center flex-col">
         <h1 class="my-8 lg:text-4xl">Kirjuta mulle</h1>
         <form action="https://tak21timofejev.itmajakas.ee" method="post">
             <div class="">
