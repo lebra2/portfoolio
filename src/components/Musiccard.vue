@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <div class="h-[100vh] lg:justify-center flex flex-col py-24 items-center lg:px-24 lg:mx-24 2xl:mx-48 2xl:px-48">
         <h1 class="text-white text-4xl">Diskograafia</h1>
       <div class="flex mt-10 gap-4">
@@ -74,7 +74,7 @@
   </script>
 
   
-  
+   -->
 
   
 
