@@ -6,6 +6,12 @@ const routes = [
         name: "Portfolio",
         component: Portfolio,
     },
+
+    {
+        path: "/Projektid",
+        name: "Projektid",
+        component: Projektid,
+    },
 ]
 
 const router = createRouter({

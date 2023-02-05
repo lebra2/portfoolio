@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
@@ -21,6 +22,9 @@ module.exports = {
         python: '#ffe873',
         sql: '#f29111',
         php: '#b0b3d6',
+        taust: '#171010',
+        navbar: '#423F3E',
+        jura: '#2B2B2B'
       }
     },
   },

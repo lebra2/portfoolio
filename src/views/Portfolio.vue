@@ -1,19 +1,21 @@
 <script setup>
 import Navigation from '../components/Navigation.vue';
 import AboutMe from '../components/AboutMe.vue';
-import Project1 from '../components/Project1.vue';
+import Projects from '../components/Projects.vue';
 import MobileLinks from '../components/MobileLinks.vue';
 import Contact from '../components/Contact.vue';
 
 </script>
 
 <template>
-    <div class="">
-        <Navigation />
-        <div class="">
+    <div class="font-['Jetbrains']">
+        <div class="bg-black bg-opacity-50">
+            <Navigation />
             <AboutMe/>
+        </div>
+        <div class="">
             <div class="">
-                <Project1/>
+                <Projects/>
             </div>
             <div class="">
                 <MobileLinks/>

@@ -33,6 +33,11 @@
     src: url(../src/assets/fonts/Jet/JetBrainsMono-Regular.ttf);
 }
 
+@font-face {
+    font-family: "JetBold";
+    src: url(../src/assets/fonts/Jet/JetBrainsMono-ExtraBold.ttf);
+}
+
 .menuButtons {
     position: fixed;
     border-radius: 9999px;
