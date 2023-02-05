@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Portfolio from '../views/Portfolio.vue';
+import Projektid from '../views/Projektid.vue';
 const routes = [
     {
         path: "/",

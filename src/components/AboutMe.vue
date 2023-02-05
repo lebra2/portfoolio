@@ -1,6 +1,6 @@
 <template> 
-<div class="h-screen flex justify-center items-center lg:px-24 lg:mx-24">
-  <div class="grid grid-cols-2">
+<div class="h-screen flex justify-center items-center lg:px-48 px-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
     <div class="rounded gap-2 lg:text-left">
       <h1 class="text-white lg:text-6xl font-semibold">Markus</h1>
         <span class="text-2xl text-white">Mulle meeldib <b class="text-yellow-300">kood</b>, <b class="text-yellow-300">disain</b> ja <b class="text-yellow-300"> muusika</b></span>
@@ -10,7 +10,7 @@
             <a class="text-yellow-300 text-xl font-semibold italic" href="https://www.lebra.ee/">www.lebra.ee</a>
     </div>
     <div class="flex justify-center items-center">
-      <router-link to="/" class="text-white text-6xl font-['Jetbold'] hover:text-yellow-300 cursor-pointer animate-pulse">Projektid</router-link>
+      <router-link to="/Projektid" class="text-white text-6xl font-['Jetbold'] hover:text-yellow-300 cursor-pointer animate-pulse">Projektid</router-link>
     </div>
     
   </div>
