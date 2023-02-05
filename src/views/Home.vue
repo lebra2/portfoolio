@@ -18,7 +18,7 @@ import MobileLinks from '../components/MobileLinks.vue';
             <div class="">
                 <About/>
             </div>
-            <div class="bg-black bg-opacity-25 h-screen flex justify-center items-center px-8 xl:px-64">
+            <div class="bg-black bg-opacity-25 px-4 xl:px-64 py-4">
                 <Contact/>
                 
             </div>
