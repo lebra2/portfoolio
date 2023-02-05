@@ -1,7 +1,7 @@
 <script setup>
 import Navigation from '../components/Navigation.vue';
 import AboutMe from '../components/AboutMe.vue';
-import Projects from '../components/Projects.vue';
+import Project1 from '../components/Project1.vue';
 import MobileLinks from '../components/MobileLinks.vue';
 import Contact from '../components/Contact.vue';
 
@@ -13,7 +13,7 @@ import Contact from '../components/Contact.vue';
         <div class="">
             <AboutMe/>
             <div class="">
-                <Projects/>
+                <Project1/>
             </div>
             <div class="">
                 <MobileLinks/>
