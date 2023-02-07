@@ -46,9 +46,6 @@
                 <h1 class="text-4xl font-semibold my-4 font-['South']">LEBRA</h1>
                 <h2 class="text-2xl">Noor Eesti räppartist/produtsent, kelle lood on peamiselt armastusest. <br> Lebra alustas oma muusika avaldamisega 2019. aastal Soundcloudis ning on nüüd jõudnud mitmete tuhandete kuulajateni. Lood on üleval nüüdseks platvormidel nagu Spotify, Youtube, Soundcloud, Apple Music, Deezer ja mujal.</h2>
             </div>
-            <div class="gap-4 p-4 text-white text-2xl flex justify-center flex-col items-center">
-                <router-link to="/Disko" class="bg-white bg-opacity-50 text-black rounded-full p-2" href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA">Diskograafia</router-link>
-            </div>
             <iframe class="h-[60vh]" style="border-radius:12px" src="https://open.spotify.com/embed/artist/70PCvEt9nvUsGdQQCjF1re?utm_source=generator&theme=0" width="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             
 

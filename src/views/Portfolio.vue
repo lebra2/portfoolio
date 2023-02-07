@@ -17,7 +17,7 @@ import Contact from '../components/Contact.vue';
             <div class="">
                 <Projects/>
             </div>
-            <div class="">
+            <div class="bg-black bg-opacity-50 h-screen">
                 <MobileLinks/>
             </div>
             <div class="">

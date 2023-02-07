@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Portfolio from '../views/Portfolio.vue';
-import Projektid from '../views/Projektid.vue';
+import Project1 from '../views/Project1.vue';
+import Projects from '../views/Projects.vue';
 const routes = [
     {
         path: "/",
@@ -9,9 +10,15 @@ const routes = [
     },
 
     {
-        path: "/Projektid",
-        name: "Projektid",
-        component: Projektid,
+        path: "/Project1",
+        name: "Project1",
+        component: Project1,
+    },
+
+    {
+        path: "/Projects",
+        name: "Projects",
+        component: Projects,
     },
 ]
 

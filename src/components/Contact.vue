@@ -30,24 +30,6 @@ const props = defineProps({
 
             </div>
         </form>
-        <div class="font-['Jetbrains'] flex mt-4 gap-4 ">
-            <h1></h1>
-            <div class="rounded-md">
-                <img class="w-12 p-2 h-12 bg-white rounded-full" src="../assets/Pictures/github-logo(1).png" alt=""><a href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA"></a>
-            </div>
-            <div class="rounded-md">
-                <img class="w-12 p-2 h-12 bg-white rounded-full" src="../assets/Pictures/github-logo(1).png" alt=""><a href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA"></a>
-            </div>
-            <div class="rounded-md">
-                <img class="w-12 p-2 h-12 bg-white rounded-full" src="../assets/Pictures/github-logo(1).png" alt=""><a href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA"></a>
-            </div>
-            <div class="rounded-md">
-                <img class="w-12 p-2 h-12 bg-white rounded-full" src="../assets/Pictures/github-logo(1).png" alt=""><a href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA"></a>
-            </div>
-            <div class="rounded-md">
-                <img class="w-12 p-2 h-12 bg-white rounded-full" src="../assets/Pictures/github-logo(1).png" alt=""><a href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA"></a>
-            </div>
-        </div>
     </div>
     
 
