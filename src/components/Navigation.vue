@@ -23,9 +23,9 @@
   </div>
   <nav class="py-4 p-2 font-['Jetbrains'] lg:hidden" v-if="isOpen">
     <router-link to="/">
-        <h1 class="block px-4 py-2 text-black hover:bg-gray-800" href="">Kodu</h1>
+        <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="">Kodu</h1>
     </router-link>
-    <router-link to="/Disko" class="block px-4 py-2 text-black hover:bg-gray-800" href="">Muusika</router-link>
+    <router-link to="/Disko" class="block px-4 py-2 text-white hover:bg-gray-800" href="">Muusika</router-link>
     <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#projektid">Projektid</a>
     <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#minust">Minust</a>
     <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#kontakt">Kontakt</a>

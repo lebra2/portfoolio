@@ -1,11 +1,11 @@
 <template> 
   <div class="flex justify-center items-center">
-    <router-link to="/Projects" class="relative block text-6xl font-['Jetbold'] p-4 text-black -inset-0 -skew-y-3 bg-yellow-300 hover:scale-105">Markus</router-link>
+    <router-link to="/Projects" class="relative block text-4xl font-['Jetbold'] p-1 md:p-4 text-black -inset-0 -skew-y-3 bg-yellow-300 hover:scale-105">Markus</router-link>
   </div>
-<div class="flex justify-center items-center 2xl:px-48 px-8 h-screen">
+<div class="flex justify-center 2xl:px-48 px-8 min-h-screen items-center">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-    <div class="flex justify-center lg:justify-start items-center">
-      <img class="w-[30rem] rounded-full" src="../assets/Pictures/mina23.png" alt="">
+    <div class="flex justify-center lg:justify-start">
+      <img class="xl:w-[30rem] sm:w-full sm:h-96 xl:h-96 rounded-full" src="../assets/Pictures/mina23.png" alt="">
     </div>
     <div class="rounded gap-2 lg:text-left">
       <h1 class="text-white text-4xl lg:text-6xl font-semibold">Markus Timofejev</h1>
