@@ -39,10 +39,10 @@ const modules = [
 </template> -->
 
 <template>
-    <img src="./assets/Pictures/back2.png" alt="taust" id="bgImage" class="fixed h-screen w-screen -z-50" style="object-fit: cover; filter: brightness(1) blur(5px) saturate(0.5); scale: 1.5;">
+  <img src="../assets/Pictures/back2.png" alt="taust" id="bgImage" class="fixed h-screen w-screen -z-50" style="object-fit: cover; filter: brightness(1) blur(5px) saturate(0.5); scale: 1.5;">
     <Header />
     <swiper 
-    class="h-screen w-screen"
+    class="h-screen w-screen font-['Jetbrains']"
     :hash-navigation="{
       watchState:true,
     }"
@@ -53,14 +53,20 @@ const modules = [
     :mousewheel="true"
     :modules="modules"
     >
-      <swiper-slide>
-        <h1>dfsgsdg</h1>
+    
+      <swiper-slide class="overflow-hidden bg-black bg-opacity-50">
+          <AboutMe/>
       </swiper-slide>
       <swiper-slide>
-        <h1>dfsgsdg</h1>
+        <div class="">
+          <Projects/>
+        </div>
+      </swiper-slide>
+      <swiper-slide class="overflow-hidden bg-black bg-opacity-50">
+        <MobileLinks/>
       </swiper-slide>
       <swiper-slide>
-        <h1>dfsgsdg</h1>
+        <Contact/>
       </swiper-slide>
     </swiper>
   

@@ -1,6 +1,6 @@
 <script setup>
 
-import Navigation from '../components/Navigation.vue';
+import Header from '../components/Header.vue';
 import Projektid from '../components/Projektid.vue';
 
 </script>
