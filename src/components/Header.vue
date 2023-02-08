@@ -1,5 +1,5 @@
 <template>
-  <div class="flex px-6 py-4 justify-between items-center font-['Jetbrains']">
+  <div class="flex px-6 py-4 z-50 justify-between items-center font-['Jetbrains'] fixed bg-black w-full">
     <div class="text-xl font-medium text-white">
       <h1 class="text-4xl">Markus</h1>
     </div>
@@ -21,7 +21,7 @@
       </svg>
     </button>
   </div>
-  <nav class="py-4 p-2 font-['Jetbrains'] lg:hidden" v-if="isOpen">
+  <nav class="pt-24 p-2 font-['Jetbrains'] lg:hidden" v-if="isOpen">
     <router-link to="/">
         <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="">Kodu</h1>
     </router-link>
