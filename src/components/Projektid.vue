@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <h1 class="text-white text-6xl text-center font-['Jetbold'] py-12">Projektid</h1>
+        <h1 class="text-white text-6xl text-center font-['Jetbold'] py-24">Projektid</h1>
     </div> 
 
     <div class="flex justify-center items-center xl:px-24 xl:px-48 px-8">

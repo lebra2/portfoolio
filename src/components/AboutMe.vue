@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center md:py-8">
-    <router-link to="/Projects" class="hidden relative mt-24 md:block xl:text-5xl text-2xl font-['Jetbold'] p-1 md:p-4 text-black -inset-0 -skew-y-3 bg-yellow-300 hover:scale-105">Markus</router-link>
+    <router-link to="/Projects" class="hidden transition-transform relative mt-24 md:block xl:text-5xl text-2xl font-['Jetbold'] p-1 md:p-4 text-black -inset-0 -skew-y-3 bg-yellow-300 hover:scale-105">Markus</router-link>
   </div>
 <div class="flex justify-center px-8 items-center mt-48 md:mt-24">
   <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -13,7 +13,7 @@
         <p class="text-white lg:text-xl md:text-xl text-lg truncate">Tegelen front-end arenduse ja muusika loomisega.</p>
       
             <div class="flex">
-              <router-link to="/Projects" class="rounded-md font-['Jetbold'] mt-2 p-2 text-black hover:text-black bg-yellow-300 hover:scale-105">Projektid</router-link>
+              <router-link to="/Projects" class="rounded-md font-['Jetbold'] mt-2 p-2 transition-transform text-black hover:text-black bg-yellow-300 hover:scale-105">Projektid</router-link>
             </div>
     </div>
     

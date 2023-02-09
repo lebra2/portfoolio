@@ -19,7 +19,6 @@ import Header from '../components/Header.vue';
 
 <template>
   <Header/>
-  <img src="../assets/Pictures/back2.png" alt="taust" id="bgImage" class="fixed h-screen w-screen -z-50" style="object-fit: cover; filter: brightness(1) blur(5px) saturate(0.5); scale: 2;">
     <div class="bg-black bg-opacity-50 min-h-screen flex flex-col">
         <AboutMe/>
     </div>

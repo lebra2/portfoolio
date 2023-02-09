@@ -8,7 +8,7 @@ import Projektid from '../components/Projektid.vue';
 
 <template>
     <div class="bg-black bg-opacity-25 h-screen">
-        <Navigation/>
+        <Header/>
         <div class="font-['Jetbrains']">
             <Projektid/>
         </div>  

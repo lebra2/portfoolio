@@ -1,7 +1,7 @@
 <template>
-  <div class="flex px-6 py-4 z-50 justify-between items-center font-['Jetbrains'] fixed bg-black w-full">
+  <div class="flex px-6 py-4 z-50 justify-between items-center font-['Jetbrains'] fixed w-full">
     <div class="text-xl font-medium text-white">
-      <h1 class="text-4xl">Markus</h1>
+      <h1 class="text-4xl">Markus<a href="https://lebra.ee/" class="text-lg font-medium hidden hover:transition-transform duration-150 hover:text-xl ">lebra</a></h1>
     </div>
     <nav class="lg:flex hidden sticky">
       <router-link to="/">
