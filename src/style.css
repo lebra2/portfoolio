@@ -61,3 +61,29 @@ html{
 .varv {
     background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
 }
+
+body::before,
+body::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  mix-blend-mode: darken;
+  mix-blend-mode: difference;
+  mix-blend-mode: exclusion;
+  mix-blend-mode: multiply;
+}
+
+body::before {
+  background: #000;
+  filter: url(#noiseFilter);
+}
+
+body::after {
+  background: url("https://unsplash.com/photos/zGZYQQVmXw0") center center no-repeat;
+  background-size: cover;
+  filter: contrast(100%) brightness(150%);
+}

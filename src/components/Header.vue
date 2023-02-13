@@ -1,5 +1,5 @@
 <template>
-  <div class="flex px-6 py-4 z-50 justify-between items-center font-['Jetbrains'] fixed w-full bg-white">
+  <div class="flex px-6 py-4 z-50 justify-between items-center font-['Jetbrains'] fixed w-full">
     <div class="text-xl font-medium">
       <h1 class="text-4xl">Markus<a href="https://lebra.ee/" class="text-lg font-medium hidden hover:transition-transform duration-150 hover:text-xl ">lebra</a></h1>
     </div>
