@@ -19,7 +19,7 @@ import Header from '../components/Header.vue';
 
 <template>
   <Header/>
-    <div class="bg-black bg-opacity-50 min-h-screen flex flex-col">
+    <div class="min-h-screen flex flex-col">
         <AboutMe/>
     </div>
     <div class="">
