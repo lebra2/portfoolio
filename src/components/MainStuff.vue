@@ -1,7 +1,7 @@
 <template>
     <div class="font-['Jetbrains'] h-screen flex flex-col justify-center items-center px-8 ">
-        <div class=" h-full pt-12 noise">
-            <img class="fixed image h-screen w-screen scale-200 -z-50" src="../assets/Pictures/kiilakas.png" alt="" style="object-fit: cover; filter: brightness(1) blur(5px) saturate(0.5);">
+        <div class=" h-full pt-12">
+            <img class="fixed image h-screen w-screen scale-200 -z-50" src="../assets/Pictures/kiilakas.jpg" alt="" style="object-fit: cover; filter: brightness(1) blur(5px) saturate(0.5);">
   
             <div class="flex border-4 justify-center items-center">
                 <a class="" href="https://open.spotify.com/album/449Zm5tF0XMRI5Rz6EBmJ3?si=r534OT6eSmW_syQM8yntsQ" target="_blank"><img class="w-[32rem] lg:w-[60vh] lg:h-[60vh]" src="../assets/Pictures/usaldus.png" alt="" style="object-fit:cover"></a>
