@@ -1,18 +1,35 @@
 <template>
   <div class="flex px-6 py-4 justify-between items-center font-['Jetbrains']">
     <div class="text-xl font-medium text-white">
-      <h1 class="text-4xl">lebra <a href="https://markus.lebra.ee/" class="text-lg font-medium ">/ Markus</a></h1>
+      <h1 class="text-3xl">lebra <a href="https://markus.lebra.ee/" class="text-lg font-medium ">/ Markus</a></h1>
     </div>
     <nav class="lg:flex hidden sticky">
       <router-link to="/">
-        <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="#">Home</h1>
+        <h1 class="px-4 text-white hover:bg-cyan-500" href="#">Home</h1>
     </router-link>
-    <router-link to="/Disko" class="block px-4 py-2 text-white hover:bg-gray-800" href="">Muusika</router-link>
-    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="https://www.youtube.com/channel/UCrTLs2NxHzsAk7x1zkg8LrA">Biidid</a>
-    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#minust">Minust</a>
-    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#kontakt">Kontakt</a>
+    <router-link to="/Disko" class="px-4 text-white hover:bg-cyan-500" href="">Muusika</router-link>
+    <a class="px-4 text-white hover:bg-cyan-500" href="https://www.youtube.com/channel/UCrTLs2NxHzsAk7x1zkg8LrA">Biidid</a>
+    <a class="px-4 text-white hover:bg-cyan-500" href="#minust">Minust</a>
+    <a class="px-4 text-white hover:bg-cyan-500" href="#kontakt">Kontakt</a>
   
     </nav>
+    <div class="hidden lg:flex">
+        <div class="">
+            <a href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA"><img class="w-12 p-2 h-12" src="../assets/Pictures/spotify.png" alt=""></a>
+        </div>
+        <div class="">
+            <a href="https://www.instagram.com/_lebra_/"><img class="w-12 p-2 h-12" src="../assets/Pictures/instagram.png" alt=""></a>
+        </div>
+        <div class="">
+            <a href="https://www.tiktok.com/@lebraofficial"><img class="w-12 p-2 h-12" src="../assets/Pictures/tik-tok.png" alt=""></a>
+        </div>
+        <div class="">
+            <a href="https://soundcloud.com/lebraofficial?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"><img class="w-12 p-2 h-12" src="../assets/Pictures/soundcloud.png" alt=""></a>
+        </div>
+        <div class="">
+            <a href="https://www.youtube.com/channel/UCM6xFVWK2ARMtvBPvEMho9w"><img class="w-12 p-2 h-12" src="../assets/Pictures/youtube.png" alt=""></a>
+        </div>
+    </div>
     <button class="lg:hidden flex text-white focus:outline-none " @click="isOpen = !isOpen">
       <svg class="h-8 w-8 fill-current" viewBox="0 0 24 24">
         <path v-if="!isOpen" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
