@@ -1,6 +1,6 @@
 <template>
     <div class="font-['Jetbrains'] h-screen flex flex-col justify-center items-center px-8 ">
-        <div class=" h-full pt-12 noise">
+        <div class=" h-full pt-12">
             <img class="fixed image h-screen w-screen scale-200 -z-50" src="../assets/Pictures/kiilakas.jpg" alt="" style="object-fit: cover; filter: brightness(1) blur(5px) saturate(0.5);">
   
             <div class="flex border-4 border-cyan-300 justify-center items-center">
@@ -21,20 +21,3 @@
     </div>
 
 </template>
-
-<style>
-.noise::before{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    content: "";
-    /* you can control opacity of noise  */
-    opacity: .03;  
-    z-index: 1000;
-    pointer-events: none;
-    background: url(./noise.gif) ;
-}
-</style>
-  
