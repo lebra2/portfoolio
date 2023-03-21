@@ -3,7 +3,7 @@
         <div class=" h-full pt-12">
             <img class="fixed image h-screen w-screen scale-200 -z-50" src="../assets/Pictures/kiilakas.jpg" alt="" style="object-fit: cover; filter: brightness(1) blur(5px) saturate(0.5);">
   
-            <div class="flex border-2 border-pink-500 justify-center items-center">
+            <div class="flex justify-center items-center">
                 <a class="" href="https://open.spotify.com/album/449Zm5tF0XMRI5Rz6EBmJ3?si=r534OT6eSmW_syQM8yntsQ" target="_blank"><img class="w-[32rem] lg:w-[60vh] lg:h-[60vh]" src="../assets/Pictures/usaldus.jpg" alt="" style="object-fit:cover"></a>
             </div>
             <div class="gap-2 text-white text-2xl flex justify-center flex-col items-center">
