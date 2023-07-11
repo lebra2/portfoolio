@@ -12,7 +12,7 @@
             </div>
             <div class="gap-4 p-4 text-white text-xl flex xl:flex-row justify-center flex-col items-center">
                 <a class="bg-white bg-opacity-5 rounded-md p-1 hover:scale-105 hover:bg-spotify" href="https://open.spotify.com/album/449Zm5tF0XMRI5Rz6EBmJ3?si=r534OT6eSmW_syQM8yntsQ">Spotify</a>
-                <a class="bg-white bg-opacity-5 rounded-md p-1 hover:scale-105 hover:bg-youtube" href="https://www.youtube.com/watch?v=MZp_g3Vx_zY">Youtube</a>
+                <a class="bg-white bg-opacity-5 rounded-md p-1 hover:scale-105 hover:bg-youtube" href="https://www.youtube.com/watch?v=c54uODoCXl8">Youtube</a>
             </div>
             <div class="flex justify-center items-center">
                 <h1 class="text-white">Breakup type song :D</h1>
