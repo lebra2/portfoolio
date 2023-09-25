@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center gap-2 mt-8 pb-8">
+    <div class="flex justify-center gap-2 mt-8 lg:hidden ">
         <div class="">
             <a href="https://open.spotify.com/artist/70PCvEt9nvUsGdQQCjF1re?si=0Sc4UYlIRXSgHlpupE0KHA"><img class="w-12 h-12 p-2 invert hover:scale-105" src="../assets/Pictures/spotify(1).png" alt=""></a>
         </div>

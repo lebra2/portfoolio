@@ -12,6 +12,7 @@ import MobileLinks from '../components/MobileLinks.vue';
     <div class="">
         <div class="bg-black bg-opacity-25">
             <Navigation />
+            <MobileLinks/>
             <MainStuff/>
         </div>
         <div>
@@ -24,7 +25,6 @@ import MobileLinks from '../components/MobileLinks.vue';
             </div>
             
         </div>
-        <MobileLinks/>
 
 
 
