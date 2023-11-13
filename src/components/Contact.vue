@@ -1,7 +1,7 @@
 <template>
   
-    <div id="kontakt" class="grid grid-cols-1 md:grid-cols-2 py-24 px-8 justify-center items-center lg:gap-24">
-        <form class=" text-white font-['Jetbrains'] rounded-lg" @submit.prevent="handleSubmit">
+    <div id="kontakt" class="flex text-center py-24 px-8 justify-center items-center lg:gap-24">
+        <!-- <form class=" text-white font-['Jetbrains'] rounded-lg" @submit.prevent="handleSubmit">
             <h2 class="text-2xl font-medium text-center">Kribame</h2>
             <div class="mb-4">
               <label class="block font-medium mb-2" for="name">
@@ -39,10 +39,10 @@
               Saada
             </button>
             <p v-if="submitted" class="text-center mt-4 text-indigo-500">Saadetud</p>
-          </form>
+          </form> -->
           <div class="text-white font-['Jetbrains'] rounded-lg mt-12">
             <h1 class="text-5xl text-center">lebra</h1>
-            <h2 class="text-lg xl:p-8 p-4 md:text-xl text-center xl:text-left">Noor Eesti räppartist/produtsent, kelle lood on peamiselt armastusest. <br> Lebra alustas oma muusika avaldamisega 2019. aastal Soundcloudis ning on nüüd jõudnud mitmete tuhandete kuulajateni. <br>
+            <h2 class="text-lg xl:p-8 p-4 md:text-xl">Noor Eesti räppartist/produtsent, kelle lood on peamiselt armastusest. <br> Lebra alustas oma muusika avaldamisega 2019. aastal Soundcloudis ning on nüüd jõudnud mitmete tuhandete kuulajateni. <br>
              Lood on üleval nüüdseks platvormidel nagu Spotify, Youtube, Soundcloud, Apple Music, Deezer ja mujal.</h2>
         </div>
         
@@ -51,7 +51,7 @@
 
   </template>
   
-  <script>
+  <!-- <script>
   export default {
     data() {
       return {
@@ -69,4 +69,4 @@
     },
   };
   </script>
-  
+   -->
