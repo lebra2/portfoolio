@@ -1,7 +1,6 @@
 <script setup>
 import Navigation from "../components/Navigation.vue";
 import MainStuff from "../components/MainStuff.vue";
-import Contact from "../components/Contact.vue";
 import About from "../components/About.vue";
 import MobileLinks from "../components/MobileLinks.vue";
 </script>
