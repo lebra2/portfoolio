@@ -41,8 +41,8 @@
             <p v-if="submitted" class="text-center mt-4 text-indigo-500">Saadetud</p>
           </form> -->
           <div class="text-white font-['Jetbrains'] rounded-lg mt-12">
-            <h1 class="text-5xl text-center">lebra</h1>
-            <h2 class="text-lg xl:p-8 p-4 md:text-xl">Noor Eesti räppartist/produtsent, kelle lood on peamiselt armastusest. <br> Lebra alustas oma muusika avaldamisega 2019. aastal Soundcloudis ning on nüüd jõudnud mitmete tuhandete kuulajateni. <br>
+            <h1 class="text-5xl text-center">LEBRA</h1>
+            <h2 class="text-base xl:p-8 p-4 md:text-xl">Noor Eesti räppartist/produtsent, kelle lood on peamiselt armastusest. <br> Lebra alustas oma muusika avaldamisega 2019. aastal Soundcloudis ning on nüüd jõudnud mitmete tuhandete kuulajateni. <br>
              Lood on üleval nüüdseks platvormidel nagu Spotify, Youtube, Soundcloud, Apple Music, Deezer ja mujal.</h2>
         </div>
         
