@@ -1,35 +1,23 @@
 <template>
-  <div class="flex px-6 py-4 justify-between items-center font-['Jetbrains']">
-    <div class="text-xl font-medium text-white">
-      <h1 class="text-3xl">
-        lebra
-        <a href="https://markus.lebra.ee/" class="text-lg font-medium"
-          >/ Markus</a
-        >
-      </h1>
+  <div
+    class="flex px-6 py-4 bg-black shadow-md justify-between items-center font-['Jetbrains']"
+  >
+    <div class="font-medium md:hidden">
+      <div class="w-24 invert fill-white">
+        <img class="" src="../assets/Pictures/signature(3).png" alt="" />
+      </div>
     </div>
-    <nav class="lg:flex hidden sticky">
+    <nav class="hidden lg:flex font-bold text-xl">
       <router-link to="/">
-        <h1 class="px-4 text-white hover:bg-pink-500 hover:-skew-y-3" href="#">
-          Home
-        </h1>
+        <h1 class="px-4 text-white" href="#">Home</h1>
       </router-link>
-      <router-link
-        to="/Disko"
-        class="px-4 text-white hover:bg-pink-500 hover:-skew-y-3"
-        href=""
-        >Muusika</router-link
-      >
+      <a class="text-white" href="#muusika">Muusika</a>
       <a
-        class="px-4 text-white hover:bg-pink-500 hover:-skew-y-3"
+        class="px-4 text-white"
         href="https://www.youtube.com/channel/UCrTLs2NxHzsAk7x1zkg8LrA"
         >Biidid</a
       >
-      <a
-        class="px-4 text-white hover:bg-pink-500 hover:-skew-y-3"
-        href="#minust"
-        >Minust</a
-      >
+      <a class="px-4 text-white" href="#minust">Minust</a>
     </nav>
     <div class="hidden lg:flex">
       <div class="">
@@ -98,22 +86,17 @@
     <router-link to="/">
       <h1 class="block px-4 py-2 text-white hover:bg-gray-800" href="">Kodu</h1>
     </router-link>
-    <router-link
-      to="/Disko"
-      class="block px-4 py-2 text-white hover:bg-gray-800"
-      href=""
-      >Muusika</router-link
+    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#muusika"
+      >Muusika</a
     >
+
     <a
       class="block px-4 py-2 text-white hover:bg-gray-800"
       href="https://www.youtube.com/channel/UCrTLs2NxHzsAk7x1zkg8LrA"
       >Biidid</a
     >
     <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#minust"
-      >Minust</a
-    >
-    <a class="block px-4 py-2 text-white hover:bg-gray-800" href="#kontakt"
-      >Kontakt</a
+      >Spotify</a
     >
   </nav>
 </template>

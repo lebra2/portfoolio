@@ -2,20 +2,21 @@
 import Navigation from "../components/Navigation.vue";
 import MainStuff from "../components/MainStuff.vue";
 import About from "../components/About.vue";
-import MobileLinks from "../components/MobileLinks.vue";
+import Musiccard from "../components/Musiccard.vue";
 </script>
 
 <template>
   <div class="">
-    <div class="bg-black bg-opacity-25">
+    <div class="bg-black bg-opacity-75">
       <Navigation />
-      <MobileLinks />
       <MainStuff />
-    </div>
-    <div>
       <div class="">
         <About />
       </div>
+      <Musiccard/>
+    </div>
+    <div>
+
     </div>
   </div>
 </template>
